@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Mobile/15E148 Safari/604.1" version="25.0.0">
   <diagram name="Page-1" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="253" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="299" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="30" y="160" width="190" height="100" as="geometry" />
         </mxCell>
         <mxCell id="eMSMq50HMb5_UuFWrkmo-5" value="Reactor Core" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};snapToPoint=0;" parent="1" vertex="1">
-          <mxGeometry x="360" y="190" width="280" height="220" as="geometry" />
+          <mxGeometry x="360" y="190" width="340" height="330" as="geometry" />
         </mxCell>
         <mxCell id="eMSMq50HMb5_UuFWrkmo-6" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;snapToPoint=0;" parent="eMSMq50HMb5_UuFWrkmo-5" source="eMSMq50HMb5_UuFWrkmo-8" target="eMSMq50HMb5_UuFWrkmo-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -55,20 +55,20 @@
         <mxCell id="eMSMq50HMb5_UuFWrkmo-43" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" parent="eMSMq50HMb5_UuFWrkmo-40" source="eMSMq50HMb5_UuFWrkmo-41" target="eMSMq50HMb5_UuFWrkmo-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eMSMq50HMb5_UuFWrkmo-44" value="Steam Relief Valve" style="whiteSpace=wrap;html=1;" parent="eMSMq50HMb5_UuFWrkmo-40" vertex="1">
+        <mxCell id="eMSMq50HMb5_UuFWrkmo-44" value="Steam Relief Valve" style="whiteSpace=wrap;html=1;direction=west;" parent="eMSMq50HMb5_UuFWrkmo-40" vertex="1">
           <mxGeometry x="190" y="100" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eMSMq50HMb5_UuFWrkmo-45" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" parent="eMSMq50HMb5_UuFWrkmo-40" source="eMSMq50HMb5_UuFWrkmo-41" target="eMSMq50HMb5_UuFWrkmo-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eMSMq50HMb5_UuFWrkmo-86" value="Bypass Valve" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="230" width="100" height="40" as="geometry" />
+          <mxGeometry x="1130" y="210" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eMSMq50HMb5_UuFWrkmo-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eMSMq50HMb5_UuFWrkmo-87" target="eMSMq50HMb5_UuFWrkmo-88" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eMSMq50HMb5_UuFWrkmo-87" value="Turbine Valve" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="310" width="100" height="40" as="geometry" />
+          <mxGeometry x="1130" y="280" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eMSMq50HMb5_UuFWrkmo-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eMSMq50HMb5_UuFWrkmo-88" target="eMSMq50HMb5_UuFWrkmo-89" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -97,13 +97,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eMSMq50HMb5_UuFWrkmo-97" value="EMRG. LPTB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="370" width="100" height="40" as="geometry" />
+          <mxGeometry x="1130" y="335" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eMSMq50HMb5_UuFWrkmo-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eMSMq50HMb5_UuFWrkmo-42" target="eMSMq50HMb5_UuFWrkmo-97" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1050" y="270" />
-              <mxPoint x="1050" y="390" />
+              <mxPoint x="1050" y="355" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -111,7 +111,7 @@
           <mxGeometry x="1275" y="500" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PO8NwpthnNpt99JutL5l-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="500" width="100" height="40" as="geometry" />
+          <mxGeometry x="570" y="560" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
