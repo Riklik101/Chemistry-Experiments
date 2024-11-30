@@ -99,6 +99,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="eMSMq50HMb5_UuFWrkmo-110" value="Line A Breaker (LAB1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="450" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
