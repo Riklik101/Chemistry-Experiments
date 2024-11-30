@@ -111,9 +111,6 @@
         <mxCell id="eMSMq50HMb5_UuFWrkmo-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eMSMq50HMb5_UuFWrkmo-42" target="eMSMq50HMb5_UuFWrkmo-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eMSMq50HMb5_UuFWrkmo-84" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1075" y="428" width="50" height="30" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
