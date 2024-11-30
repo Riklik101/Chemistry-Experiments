@@ -52,7 +52,7 @@
         <mxCell id="eMSMq50HMb5_UuFWrkmo-43" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" parent="eMSMq50HMb5_UuFWrkmo-40" source="eMSMq50HMb5_UuFWrkmo-41" target="eMSMq50HMb5_UuFWrkmo-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eMSMq50HMb5_UuFWrkmo-44" value="Steam Relief Valve" style="whiteSpace=wrap;html=1;direction=west;" parent="eMSMq50HMb5_UuFWrkmo-40" vertex="1">
+        <mxCell id="eMSMq50HMb5_UuFWrkmo-44" value="Steam Relief Valve" style="whiteSpace=wrap;html=1;direction=west;fillColor=#f8cecc;strokeColor=#b85450;" parent="eMSMq50HMb5_UuFWrkmo-40" vertex="1">
           <mxGeometry x="190" y="100" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eMSMq50HMb5_UuFWrkmo-45" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" parent="eMSMq50HMb5_UuFWrkmo-40" source="eMSMq50HMb5_UuFWrkmo-41" target="eMSMq50HMb5_UuFWrkmo-44" edge="1">
@@ -107,6 +107,9 @@
         <mxCell id="5qiNaghYbpfas7nE0gJH-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="eMSMq50HMb5_UuFWrkmo-110" target="5qiNaghYbpfas7nE0gJH-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="tpgMOG0Kztky4rd-EwOk-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="eMSMq50HMb5_UuFWrkmo-110" target="tpgMOG0Kztky4rd-EwOk-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="eMSMq50HMb5_UuFWrkmo-110" value="Main Turbine Connection" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1275" y="500" width="100" height="40" as="geometry" />
         </mxCell>
@@ -136,11 +139,26 @@
         <mxCell id="5qiNaghYbpfas7nE0gJH-22" value="Bus A: Main Power&lt;div&gt;Bus B: Turbine Power&lt;/div&gt;&lt;div&gt;Bus C:&lt;/div&gt;&lt;div&gt;Mechanical Power&lt;/div&gt;&lt;div&gt;Bus D: Lights/Vent&lt;/div&gt;&lt;div&gt;Bus E: Safety Bus&lt;/div&gt;&lt;div&gt;Bus F: Emergency Main (powered by E)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="290" width="80" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="5qiNaghYbpfas7nE0gJH-23" value="A: White&lt;div&gt;B: Tan&lt;/div&gt;&lt;div&gt;C: Gray&lt;/div&gt;&lt;div&gt;D: N/A&lt;/div&gt;&lt;div&gt;E: Light Blue&lt;/div&gt;&lt;div&gt;F: Red&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="5qiNaghYbpfas7nE0gJH-23" value="A: Green&lt;div&gt;B: Tan&lt;/div&gt;&lt;div&gt;C: Gray&lt;/div&gt;&lt;div&gt;D: N/A&lt;/div&gt;&lt;div&gt;E: Light Blue&lt;/div&gt;&lt;div&gt;F: Red&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="270" width="80" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="tpgMOG0Kztky4rd-EwOk-13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="tpgMOG0Kztky4rd-EwOk-3" target="tpgMOG0Kztky4rd-EwOk-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tpgMOG0Kztky4rd-EwOk-3" value="Line A (PWR IN) Breaker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="570" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tpgMOG0Kztky4rd-EwOk-12" value="BUS A" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="565" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tpgMOG0Kztky4rd-EwOk-14" value="BUS B (turbine power)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="990" y="500" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tpgMOG0Kztky4rd-EwOk-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="tpgMOG0Kztky4rd-EwOk-16" target="tpgMOG0Kztky4rd-EwOk-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tpgMOG0Kztky4rd-EwOk-16" value="BUS B Breaker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="500" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
