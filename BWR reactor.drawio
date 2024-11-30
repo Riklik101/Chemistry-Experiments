@@ -4,14 +4,28 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="eMSMq50HMb5_UuFWrkmo-1" value="FUEL RODS BRRRRRRRRRR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="230" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="eMSMq50HMb5_UuFWrkmo-2" value="Control Rods" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="310" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="eMSMq50HMb5_UuFWrkmo-4" value="electronic systems are in green, mechanical in light gray. emergency electronic systems are in light blue, and emergency mechanical systems are in red." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="160" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eMSMq50HMb5_UuFWrkmo-5" value="Reactor Core" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+          <mxGeometry x="360" y="190" width="280" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="eMSMq50HMb5_UuFWrkmo-6" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="eMSMq50HMb5_UuFWrkmo-5" source="eMSMq50HMb5_UuFWrkmo-8" target="eMSMq50HMb5_UuFWrkmo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eMSMq50HMb5_UuFWrkmo-7" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" parent="eMSMq50HMb5_UuFWrkmo-5" source="eMSMq50HMb5_UuFWrkmo-8" target="eMSMq50HMb5_UuFWrkmo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Energy Production" treeRoot="1" id="eMSMq50HMb5_UuFWrkmo-8">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="eMSMq50HMb5_UuFWrkmo-5">
+            <mxGeometry x="80" y="40" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="eMSMq50HMb5_UuFWrkmo-9" value="Fuel Rods" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="eMSMq50HMb5_UuFWrkmo-5">
+          <mxGeometry x="20" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eMSMq50HMb5_UuFWrkmo-10" value="Control Rods" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="eMSMq50HMb5_UuFWrkmo-5">
+          <mxGeometry x="160" y="140" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
