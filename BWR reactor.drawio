@@ -125,7 +125,7 @@
         <mxCell id="5qiNaghYbpfas7nE0gJH-18" value="Grid Breaker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1275" y="640" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5qiNaghYbpfas7nE0gJH-22" value="Bus A: Main Power&lt;div&gt;Bus B: Turbine Power&lt;/div&gt;&lt;div&gt;Bus C:&lt;/div&gt;&lt;div&gt;Mechanical Power&lt;/div&gt;&lt;div&gt;Bus D: Lights/Vent&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5qiNaghYbpfas7nE0gJH-22" value="Bus A: Main Power&lt;div&gt;Bus B: Turbine Power&lt;/div&gt;&lt;div&gt;Bus C:&lt;/div&gt;&lt;div&gt;Mechanical Power&lt;/div&gt;&lt;div&gt;Bus D: Lights/Vent&lt;/div&gt;&lt;div&gt;Bus E: Safety Bus&lt;/div&gt;&lt;div&gt;Bus F: Emergency Main (powered by E)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="250" width="80" height="280" as="geometry" />
         </mxCell>
       </root>
