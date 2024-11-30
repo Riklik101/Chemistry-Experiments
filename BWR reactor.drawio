@@ -41,7 +41,7 @@
           <mxGeometry x="580" y="430" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eMSMq50HMb5_UuFWrkmo-40" value="Turbine Inlet Safety" style="swimlane;startSize=20;horizontal=0;childLayout=treeLayout;horizontalTree=1;sortEdges=1;resizable=0;containerType=tree;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="730" y="210" width="310" height="160" as="geometry" />
+          <mxGeometry x="730" y="210" width="310" height="220" as="geometry" />
         </mxCell>
         <mxCell id="eMSMq50HMb5_UuFWrkmo-41" value="Steam Pipe" style="whiteSpace=wrap;html=1;" parent="eMSMq50HMb5_UuFWrkmo-40" vertex="1">
           <mxGeometry x="40" y="60" width="100" height="40" as="geometry" />
@@ -52,19 +52,28 @@
         <mxCell id="eMSMq50HMb5_UuFWrkmo-43" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" parent="eMSMq50HMb5_UuFWrkmo-40" source="eMSMq50HMb5_UuFWrkmo-41" target="eMSMq50HMb5_UuFWrkmo-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eMSMq50HMb5_UuFWrkmo-44" value="Steam Relief Valve" style="whiteSpace=wrap;html=1;direction=west;fillColor=#f8cecc;strokeColor=#b85450;" parent="eMSMq50HMb5_UuFWrkmo-40" vertex="1">
+        <mxCell id="eMSMq50HMb5_UuFWrkmo-44" value="Steam Relief Valve" style="whiteSpace=wrap;html=1;direction=west;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="eMSMq50HMb5_UuFWrkmo-40" vertex="1">
           <mxGeometry x="190" y="100" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eMSMq50HMb5_UuFWrkmo-45" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" parent="eMSMq50HMb5_UuFWrkmo-40" source="eMSMq50HMb5_UuFWrkmo-41" target="eMSMq50HMb5_UuFWrkmo-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eMSMq50HMb5_UuFWrkmo-86" value="Bypass Valve" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="tpgMOG0Kztky4rd-EwOk-19" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="eMSMq50HMb5_UuFWrkmo-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="190" as="sourcePoint" />
+            <mxPoint x="250" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tpgMOG0Kztky4rd-EwOk-21" value="This automatically activates when offsite power is lost" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="eMSMq50HMb5_UuFWrkmo-40">
+          <mxGeometry x="80" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eMSMq50HMb5_UuFWrkmo-86" value="Bypass Valve" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1130" y="210" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eMSMq50HMb5_UuFWrkmo-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eMSMq50HMb5_UuFWrkmo-87" target="eMSMq50HMb5_UuFWrkmo-88" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eMSMq50HMb5_UuFWrkmo-87" value="Turbine Valve" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="eMSMq50HMb5_UuFWrkmo-87" value="Turbine Valve" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1130" y="280" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eMSMq50HMb5_UuFWrkmo-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eMSMq50HMb5_UuFWrkmo-88" target="eMSMq50HMb5_UuFWrkmo-89" edge="1">
@@ -93,7 +102,7 @@
         <mxCell id="eMSMq50HMb5_UuFWrkmo-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eMSMq50HMb5_UuFWrkmo-97" target="eMSMq50HMb5_UuFWrkmo-89" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eMSMq50HMb5_UuFWrkmo-97" value="EMRG. LPTB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="eMSMq50HMb5_UuFWrkmo-97" value="EMRG. LPTB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1130" y="335" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eMSMq50HMb5_UuFWrkmo-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eMSMq50HMb5_UuFWrkmo-42" target="eMSMq50HMb5_UuFWrkmo-97" edge="1">
