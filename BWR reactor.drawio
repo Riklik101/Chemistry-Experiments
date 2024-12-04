@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="25.0.1">
   <diagram name="Page-1" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="432" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="835" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -274,7 +274,7 @@
           <mxGeometry x="150" y="555" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wxt0_Q9f4nGSUfQLP3tp-6" value="Reactor Containment Vessel" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1560" y="90" width="300" height="970" as="geometry" />
+          <mxGeometry x="1560" y="90" width="790" height="970" as="geometry" />
         </mxCell>
         <mxCell id="6rTAJGrIADEqD6MdZbD7-2" value="Fuel + Control Rod Assemblies" style="whiteSpace=wrap;html=1;" parent="wxt0_Q9f4nGSUfQLP3tp-6" vertex="1">
           <mxGeometry x="80" y="590" width="118.75" height="160" as="geometry" />
@@ -308,9 +308,6 @@
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-51" value="HPCI &amp;amp; LPCI" style="shape=or;html=1;rotation=-90;direction=east;flipH=0;whiteSpace=wrap;textDirection=vertical-lr;" vertex="1" parent="wxt0_Q9f4nGSUfQLP3tp-6">
           <mxGeometry x="110" y="490" width="60" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="KEScihgmW8gV4-IKPjgC-54" value="HPCI system only works when reactor pressure is above 6.8 atm, with 5k gal/min water injection rate. powered by steam, 2 modes - injection OR pressure management where it is powered by steam but does not inject, does not trip reactor" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=6;html=1;rounded=0;glass=0;" vertex="1" parent="wxt0_Q9f4nGSUfQLP3tp-6">
-          <mxGeometry x="-410" y="170" width="660" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6rTAJGrIADEqD6MdZbD7-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="710" width="100" height="40" as="geometry" />
@@ -439,6 +436,9 @@
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-52" value="HPCI" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="1400" y="310" width="385" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KEScihgmW8gV4-IKPjgC-55" value="HPCI system only works when reactor pressure is above 6.8 atm, with 5k gal/min water injection rate. powered by steam, 2 modes - injection OR pressure management where it is powered by steam but does not inject, does not trip reactor" style="text;align=center;verticalAlign=middle;rounded=0;fontSize=6;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="70" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
