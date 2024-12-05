@@ -1,9 +1,19 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="25.0.1">
   <diagram name="Page-1" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="569" dy="1706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="329" dy="1451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KEScihgmW8gV4-IKPjgC-131" value="CSP wtr" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;textDirection=vertical-lr;" edge="1" parent="1" source="KEScihgmW8gV4-IKPjgC-120" target="KEScihgmW8gV4-IKPjgC-59">
+          <mxGeometry x="0.7916" y="2" relative="1" as="geometry">
+            <mxPoint x="1490" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1440" y="140" />
+              <mxPoint x="1470" y="640" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-98" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="1660.57" y="635.81" width="119.38" height="6.5" as="geometry" />
         </mxCell>
@@ -351,23 +361,14 @@
         <mxCell id="KEScihgmW8gV4-IKPjgC-52" value="HPCI" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="1400" y="495" width="150" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="KEScihgmW8gV4-IKPjgC-55" value="HPCI system only works when reactor pressure is above 6.8 atm, with 5k gal/min water injection rate. powered by steam, 2 modes - injection OR pressure management where it is powered by steam but does not inject, does not trip reactor" style="text;align=center;verticalAlign=middle;rounded=0;fontSize=6;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1457.51" y="420" width="92.49" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-117" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KEScihgmW8gV4-IKPjgC-57" target="KEScihgmW8gV4-IKPjgC-58">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KEScihgmW8gV4-IKPjgC-57" value="HPCI inlet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="540" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-118" value="power" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KEScihgmW8gV4-IKPjgC-58" target="KEScihgmW8gV4-IKPjgC-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-58" value="Turbine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1480" y="540" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KEScihgmW8gV4-IKPjgC-59" value="HPCI outlet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="610" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wxt0_Q9f4nGSUfQLP3tp-6" value="Reactor Containment Vessel" style="swimlane;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="1560" y="155" width="280" height="970" as="geometry" />
@@ -380,6 +381,15 @@
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-71" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="wxt0_Q9f4nGSUfQLP3tp-6">
           <mxGeometry x="37.62" y="487.88" width="121.75" height="6.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KEScihgmW8gV4-IKPjgC-133" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wxt0_Q9f4nGSUfQLP3tp-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="514.0000000000002" as="sourcePoint" />
+            <mxPoint x="73" y="564.98" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-30" y="564" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-99" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="wxt0_Q9f4nGSUfQLP3tp-6">
           <mxGeometry x="119.25" y="483" width="118.5" height="6.5" as="geometry" />
@@ -501,11 +511,37 @@
         <mxCell id="tpgMOG0Kztky4rd-EwOk-66" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="tpgMOG0Kztky4rd-EwOk-54" target="tpgMOG0Kztky4rd-EwOk-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="KEScihgmW8gV4-IKPjgC-125" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="tpgMOG0Kztky4rd-EwOk-54" target="KEScihgmW8gV4-IKPjgC-123">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1910" y="-520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEScihgmW8gV4-IKPjgC-126" value="Water from CST 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;textDirection=vertical-lr;rotation=355;labelBorderColor=default;" vertex="1" connectable="0" parent="KEScihgmW8gV4-IKPjgC-125">
+          <mxGeometry x="0.8266" y="1" relative="1" as="geometry">
+            <mxPoint x="-5" y="-59" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tpgMOG0Kztky4rd-EwOk-54" value="CST 1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="1646.905346164715" y="-558.3197809419496" width="60.498" height="80.66418604651165" as="geometry" />
         </mxCell>
         <mxCell id="tpgMOG0Kztky4rd-EwOk-69" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="tpgMOG0Kztky4rd-EwOk-55" target="tpgMOG0Kztky4rd-EwOk-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEScihgmW8gV4-IKPjgC-127" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="tpgMOG0Kztky4rd-EwOk-55" target="KEScihgmW8gV4-IKPjgC-124">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1680" y="-190" />
+              <mxPoint x="1860" y="-190" />
+              <mxPoint x="1860" y="-50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEScihgmW8gV4-IKPjgC-128" value="Water from CST 2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;textDirection=vertical-lr;labelBorderColor=default;" vertex="1" connectable="0" parent="KEScihgmW8gV4-IKPjgC-127">
+          <mxGeometry x="0.6494" y="-2" relative="1" as="geometry">
+            <mxPoint y="-30" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="tpgMOG0Kztky4rd-EwOk-55" value="CST 2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="1646.905346164715" y="-376.913713033954" width="60.498" height="80.66418604651165" as="geometry" />
@@ -541,6 +577,33 @@
         </mxCell>
         <mxCell id="tpgMOG0Kztky4rd-EwOk-68" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="tpgMOG0Kztky4rd-EwOk-60" target="tpgMOG0Kztky4rd-EwOk-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEScihgmW8gV4-IKPjgC-129" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KEScihgmW8gV4-IKPjgC-123" target="KEScihgmW8gV4-IKPjgC-120">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2020" y="-110" />
+              <mxPoint x="2020" y="-30" />
+              <mxPoint x="2020" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEScihgmW8gV4-IKPjgC-123" value="CSP Makeup Pump 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="-140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEScihgmW8gV4-IKPjgC-130" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KEScihgmW8gV4-IKPjgC-124" target="KEScihgmW8gV4-IKPjgC-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEScihgmW8gV4-IKPjgC-124" value="CSP Makeup Pump 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="-60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEScihgmW8gV4-IKPjgC-57" value="HPCI inlet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="540" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEScihgmW8gV4-IKPjgC-55" value="HPCI system only works when reactor pressure is above 6.8 atm, with 5k gal/min water injection rate. powered by steam, 2 modes - injection OR pressure management where it is powered by steam but does not inject, does not trip reactor" style="text;align=center;verticalAlign=middle;rounded=0;fontSize=6;whiteSpace=wrap;fillColor=default;strokeColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1457.51" y="420" width="92.49" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEScihgmW8gV4-IKPjgC-59" value="HPCI outlet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="610" width="40" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
