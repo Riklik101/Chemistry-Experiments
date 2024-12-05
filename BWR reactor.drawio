@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="25.0.1">
   <diagram name="Page-1" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="783" dy="1934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1043" dy="2212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -255,6 +255,27 @@
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-51" value="HPCI &amp;amp; LPCI" style="shape=or;html=1;rotation=-90;direction=east;flipH=0;whiteSpace=wrap;textDirection=vertical-lr;" vertex="1" parent="wxt0_Q9f4nGSUfQLP3tp-6">
           <mxGeometry x="110" y="490" width="60" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KEScihgmW8gV4-IKPjgC-63" value="Steam Separator" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="wxt0_Q9f4nGSUfQLP3tp-6">
+          <mxGeometry x="80" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEScihgmW8gV4-IKPjgC-64" value="Steam Dryer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wxt0_Q9f4nGSUfQLP3tp-6">
+          <mxGeometry x="70" y="325" width="139.87" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEScihgmW8gV4-IKPjgC-65" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="wxt0_Q9f4nGSUfQLP3tp-6" target="KEScihgmW8gV4-IKPjgC-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="450" as="sourcePoint" />
+            <mxPoint x="70" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEScihgmW8gV4-IKPjgC-66" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="wxt0_Q9f4nGSUfQLP3tp-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="209.8699999999999" y="445" as="sourcePoint" />
+            <mxPoint x="209.8699999999999" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEScihgmW8gV4-IKPjgC-71" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="wxt0_Q9f4nGSUfQLP3tp-6">
+          <mxGeometry x="50" y="480.75" width="77" height="6.5" as="geometry" />
         </mxCell>
         <mxCell id="6rTAJGrIADEqD6MdZbD7-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="710" width="100" height="40" as="geometry" />
