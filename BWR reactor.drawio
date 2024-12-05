@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="25.0.1">
   <diagram name="Page-1" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="1252" dy="2434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="783" dy="1934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -221,7 +221,7 @@
           <mxGeometry x="150" y="555" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wxt0_Q9f4nGSUfQLP3tp-6" value="Reactor Containment Vessel" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1560" y="90" width="280" height="970" as="geometry" />
+          <mxGeometry x="1560" y="150" width="280" height="970" as="geometry" />
         </mxCell>
         <mxCell id="6rTAJGrIADEqD6MdZbD7-2" value="Fuel + Control Rod Assemblies" style="whiteSpace=wrap;html=1;" parent="wxt0_Q9f4nGSUfQLP3tp-6" vertex="1">
           <mxGeometry x="80" y="590" width="118.75" height="160" as="geometry" />
@@ -263,7 +263,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6rTAJGrIADEqD6MdZbD7-4" value="Control Rod Driver" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1650" y="1075" width="100" height="80" as="geometry" />
+          <mxGeometry x="1650" y="1140" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6rTAJGrIADEqD6MdZbD7-6" value="" style="group;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1050" y="1075" width="340" height="330" as="geometry" />
