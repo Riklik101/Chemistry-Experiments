@@ -605,6 +605,9 @@
         <mxCell id="KEScihgmW8gV4-IKPjgC-59" value="HPCI outlet" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1500" y="610" width="40" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="WCcT-g0CYxjj1Q7qOdfN-1" value="Extremely &amp;nbsp;simplified version of battery buses: most plants have many more, but for simplicity this many are sufficient.&amp;nbsp;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1110" width="230" height="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
