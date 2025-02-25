@@ -618,7 +618,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j6LHovaZfRzmMKkW-KHH-24" value="The reason why there is no direct&amp;nbsp;line to the RCV is due to the fact that such a direct line could fail or cause a disruption. Therefore, it is vital that an emergency alternative system is used; by having emergency lines and direct lines through the CSP, if the RCV is experiencing rapid pressurization or other events, the emergency systems are not affected.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="2290" y="50" width="330" height="120" as="geometry" />
+          <mxGeometry x="2120" y="30" width="330" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
