@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="26.0.16" pages="3">
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="948" dy="1885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="768" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -606,7 +606,19 @@
           <mxGeometry x="1500" y="610" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WCcT-g0CYxjj1Q7qOdfN-1" value="Extremely &amp;nbsp;simplified version of battery buses: most plants have many more, but for simplicity this many are sufficient.&amp;nbsp;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="630" y="1110" width="230" height="150" as="geometry" />
+          <mxGeometry x="710" y="1115" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="j6LHovaZfRzmMKkW-KHH-1" value="Emergency CSP pumps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="70" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="j6LHovaZfRzmMKkW-KHH-2" value="If it is marked with this color, it AFAIK doesn&#39;t exist IRL, but it should exist ^-^" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;fontSize=16;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="820" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j6LHovaZfRzmMKkW-KHH-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.002;entryY=0.946;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="j6LHovaZfRzmMKkW-KHH-1" target="KEScihgmW8gV4-IKPjgC-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j6LHovaZfRzmMKkW-KHH-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="100" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
