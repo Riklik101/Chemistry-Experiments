@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="26.0.16" pages="3">
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="768" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1151" dy="2053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -617,8 +617,11 @@
         <mxCell id="j6LHovaZfRzmMKkW-KHH-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.002;entryY=0.946;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="j6LHovaZfRzmMKkW-KHH-1" target="KEScihgmW8gV4-IKPjgC-120">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="j6LHovaZfRzmMKkW-KHH-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="2180" y="100" width="120" height="70" as="geometry" />
+        <mxCell id="j6LHovaZfRzmMKkW-KHH-7" value="The reason why there is no direct line to the RCV is due to the fact that such a direct line could fail or cause a disruption. Therefore, it is vital that an emergency alternative system is used; by having emergency lines and direct lines through the CSP, if the RCV is experiencing rapid pressurization or other events, the emergency systems are not affected. " style="whiteSpace=wrap;overflow=visible;portConstraint=none;portConstraintRotation=0;perimeter=none;metaEdit=0;autosize=1;fixedWidth=0;fillStyle=auto;absoluteArcSize=0;container=0;dropTarget=0;collapsible=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="250" width="1830" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="j6LHovaZfRzmMKkW-KHH-24" value="The reason why there is no direct&amp;nbsp;line to the RCV is due to the fact that such a direct line could fail or cause a disruption. Therefore, it is vital that an emergency alternative system is used; by having emergency lines and direct lines through the CSP, if the RCV is experiencing rapid pressurization or other events, the emergency systems are not affected.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="50" width="330" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
