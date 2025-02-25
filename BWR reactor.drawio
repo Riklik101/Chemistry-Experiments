@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="26.0.16" pages="3">
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="1151" dy="2053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="948" dy="1885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KEScihgmW8gV4-IKPjgC-131" value="CSP wtr" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;textDirection=vertical-lr;strokeColor=#00FFFF;" parent="1" source="KEScihgmW8gV4-IKPjgC-120" target="KEScihgmW8gV4-IKPjgC-59" edge="1">
+        <mxCell id="KEScihgmW8gV4-IKPjgC-131" value="CSP wtr" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;textDirection=vertical-lr;strokeColor=#001DBC;fillColor=#0050ef;" parent="1" source="KEScihgmW8gV4-IKPjgC-120" target="KEScihgmW8gV4-IKPjgC-59" edge="1">
           <mxGeometry x="0.7916" y="2" relative="1" as="geometry">
             <mxPoint x="1490" y="640" as="targetPoint" />
             <Array as="points">
@@ -370,7 +370,7 @@
         <mxCell id="KEScihgmW8gV4-IKPjgC-58" value="Turbine" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1480" y="540" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wxt0_Q9f4nGSUfQLP3tp-6" value="Reactor Containment Vessel" style="swimlane;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" parent="1" vertex="1">
+        <mxCell id="wxt0_Q9f4nGSUfQLP3tp-6" value="Reactor Containment Vessel" style="swimlane;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="1560" y="155" width="280" height="970" as="geometry" />
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-97" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" parent="wxt0_Q9f4nGSUfQLP3tp-6" vertex="1">
@@ -496,7 +496,7 @@
         <mxCell id="KEScihgmW8gV4-IKPjgC-112" value="Steam Out to Turbine" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1400" y="360" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KEScihgmW8gV4-IKPjgC-120" value="Core Supression Pool (Located above RCV enabling gravity-fed flow if low power or no power)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="KEScihgmW8gV4-IKPjgC-120" value="Core Supression Pool (Located above RCV enabling gravity-fed flow if low power or no power)" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1559.38" y="-160" width="280" height="280" as="geometry" />
         </mxCell>
         <mxCell id="tpgMOG0Kztky4rd-EwOk-59" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="tpgMOG0Kztky4rd-EwOk-53" target="tpgMOG0Kztky4rd-EwOk-58" edge="1">
