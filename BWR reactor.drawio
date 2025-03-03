@@ -517,7 +517,7 @@
         <mxCell id="KEScihgmW8gV4-IKPjgC-112" value="Steam Out to Turbine" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1400" y="360" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KEScihgmW8gV4-IKPjgC-120" value="Core Supression Pool (Located above RCV enabling gravity-fed flow if low power or no power)" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="KEScihgmW8gV4-IKPjgC-120" value="Core Supression Pool (Located above RCV enabling gravity-fed flow if low power or no power, also condenses radioactive steam in the event RCV is at maximum pressure or steam valves open, and also handles emergency releases," style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1559.38" y="-160" width="280" height="280" as="geometry" />
         </mxCell>
         <mxCell id="tpgMOG0Kztky4rd-EwOk-59" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="tpgMOG0Kztky4rd-EwOk-53" target="tpgMOG0Kztky4rd-EwOk-58" edge="1">
@@ -721,6 +721,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="k97ljpKsMprcKII0X-Vi-1" value="Vents to supression pool" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="eMSMq50HMb5_UuFWrkmo-44" target="KEScihgmW8gV4-IKPjgC-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k97ljpKsMprcKII0X-Vi-2" value="Steam Containment Vessel - idea wherence there is a Vessel with the sole purpose of containing steam in the eevent the SRVs open. However, this has the downside of not going back to reactor hotwell, running the risk of reducing reactor water level, in that case hotwell needs to have more water added.&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="-90" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="k97ljpKsMprcKII0X-Vi-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.364;entryY=0.938;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="eMSMq50HMb5_UuFWrkmo-44" target="k97ljpKsMprcKII0X-Vi-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
