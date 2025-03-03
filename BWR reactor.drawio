@@ -16,11 +16,11 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="701" dy="1680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="576" dy="1576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dGc705qvc9fmwsX8Qmvt-30" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dGc705qvc9fmwsX8Qmvt-27">
+        <mxCell id="dGc705qvc9fmwsX8Qmvt-30" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dGc705qvc9fmwsX8Qmvt-27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1760" y="1480" as="targetPoint" />
           </mxGeometry>
@@ -629,81 +629,96 @@
         <mxCell id="WCcT-g0CYxjj1Q7qOdfN-1" value="Extremely &amp;nbsp;simplified version of battery buses: most plants have many more, but for simplicity this many are sufficient.&amp;nbsp;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="710" y="1115" width="230" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="j6LHovaZfRzmMKkW-KHH-1" value="Emergency CSP pumps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="j6LHovaZfRzmMKkW-KHH-1" value="Emergency CSP pumps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1890" y="70" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="j6LHovaZfRzmMKkW-KHH-2" value="If it is marked with this color, it AFAIK doesn&#39;t exist IRL, but it should exist ^-^" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;fontSize=16;rounded=0;" vertex="1" parent="1">
+        <mxCell id="j6LHovaZfRzmMKkW-KHH-2" value="If it is marked with this color, it AFAIK doesn&#39;t exist IRL, but it should exist ^-^" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;fontSize=16;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="10" y="820" width="570" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="j6LHovaZfRzmMKkW-KHH-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.002;entryY=0.946;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="j6LHovaZfRzmMKkW-KHH-1" target="KEScihgmW8gV4-IKPjgC-120">
+        <mxCell id="j6LHovaZfRzmMKkW-KHH-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.002;entryY=0.946;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="j6LHovaZfRzmMKkW-KHH-1" target="KEScihgmW8gV4-IKPjgC-120" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="j6LHovaZfRzmMKkW-KHH-24" value="The reason why there is no direct&amp;nbsp;line to the RCV is due to the fact that such a direct line could fail or cause a disruption. Therefore, it is vital that an emergency alternative system is used; by having emergency lines and direct lines through the CSP, if the RCV is experiencing rapid pressurization or other events, the emergency systems are not affected.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="j6LHovaZfRzmMKkW-KHH-24" value="The reason why there is no direct&amp;nbsp;line to the RCV is due to the fact that such a direct line could fail or cause a disruption. Therefore, it is vital that an emergency alternative system is used; by having emergency lines and direct lines through the CSP, if the RCV is experiencing rapid pressurization or other events, the emergency systems are not affected.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2040" y="50" width="330" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="dGc705qvc9fmwsX8Qmvt-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="dGc705qvc9fmwsX8Qmvt-1" target="KEScihgmW8gV4-IKPjgC-120">
+        <mxCell id="dGc705qvc9fmwsX8Qmvt-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="dGc705qvc9fmwsX8Qmvt-1" target="KEScihgmW8gV4-IKPjgC-120" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dGc705qvc9fmwsX8Qmvt-1" value="Firefighter/Watertruck CSP refill port for Emergencies" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="dGc705qvc9fmwsX8Qmvt-1" value="Firefighter/Watertruck CSP refill port for Emergencies" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1330" y="-120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dGc705qvc9fmwsX8Qmvt-2" value="If WATER is entered here, a ISOLATED mechanical system automatically triggers a SCRAM and instrumenttion reads as &quot;CSP refill port open&quot;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="dGc705qvc9fmwsX8Qmvt-2" value="If WATER is entered here, a ISOLATED mechanical system automatically triggers a SCRAM and instrumenttion reads as &quot;CSP refill port open&quot;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1300" y="-50" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="dGc705qvc9fmwsX8Qmvt-6" value="" style="group;" vertex="1" connectable="0" parent="1">
+        <mxCell id="dGc705qvc9fmwsX8Qmvt-6" value="" style="group;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1450" y="1270" width="430" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="dGc705qvc9fmwsX8Qmvt-7" value="Line B OUT" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};snapToPoint=0;" vertex="1" parent="dGc705qvc9fmwsX8Qmvt-6">
+        <mxCell id="dGc705qvc9fmwsX8Qmvt-7" value="Line B OUT" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};snapToPoint=0;" parent="dGc705qvc9fmwsX8Qmvt-6" vertex="1">
           <mxGeometry width="430" height="330" as="geometry" />
         </mxCell>
+        <mxCell id="3fKYZLzxM2HGqWrKvjzX-1" style="edgeStyle=elbowEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=block;fontSize=12;startSize=8;endSize=8;endFill=1;" edge="1" parent="dGc705qvc9fmwsX8Qmvt-7" source="dGc705qvc9fmwsX8Qmvt-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <UserObject label="HPT" treeRoot="1" id="dGc705qvc9fmwsX8Qmvt-10">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};snapToPoint=0;" vertex="1" parent="dGc705qvc9fmwsX8Qmvt-7">
-            <mxGeometry x="80" y="40" width="60" height="40" as="geometry" />
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};snapToPoint=0;" parent="dGc705qvc9fmwsX8Qmvt-7" vertex="1">
+            <mxGeometry x="90" y="30" width="60" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="3fKYZLzxM2HGqWrKvjzX-2" style="edgeStyle=elbowEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;fontSize=12;startFill=0;endFill=1;" edge="1" parent="dGc705qvc9fmwsX8Qmvt-7" source="dGc705qvc9fmwsX8Qmvt-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <UserObject label="LPT" treeRoot="1" id="dGc705qvc9fmwsX8Qmvt-17">
-          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};snapToPoint=0;" vertex="1" parent="dGc705qvc9fmwsX8Qmvt-7">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};snapToPoint=0;" parent="dGc705qvc9fmwsX8Qmvt-7" vertex="1">
             <mxGeometry x="170" y="40" width="60" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="dGc705qvc9fmwsX8Qmvt-19" value="Syncroscope" style="whiteSpace=wrap;html=1;glass=0;rounded=1;perimeter=rectanglePerimeter;arcSize=50;" vertex="1" parent="dGc705qvc9fmwsX8Qmvt-7">
+        <mxCell id="dGc705qvc9fmwsX8Qmvt-19" value="Syncroscope" style="whiteSpace=wrap;html=1;glass=0;rounded=1;perimeter=rectanglePerimeter;arcSize=50;" parent="dGc705qvc9fmwsX8Qmvt-7" vertex="1">
           <mxGeometry x="10" y="190" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="dGc705qvc9fmwsX8Qmvt-22" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="dGc705qvc9fmwsX8Qmvt-7" source="dGc705qvc9fmwsX8Qmvt-20">
+        <mxCell id="dGc705qvc9fmwsX8Qmvt-22" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="dGc705qvc9fmwsX8Qmvt-7" source="dGc705qvc9fmwsX8Qmvt-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="70" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dGc705qvc9fmwsX8Qmvt-20" value="Line A Hertz Regulator" style="whiteSpace=wrap;html=1;" vertex="1" parent="dGc705qvc9fmwsX8Qmvt-7">
+        <mxCell id="dGc705qvc9fmwsX8Qmvt-20" value="Line A Hertz Regulator" style="whiteSpace=wrap;html=1;" parent="dGc705qvc9fmwsX8Qmvt-7" vertex="1">
           <mxGeometry x="80" y="270" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dGc705qvc9fmwsX8Qmvt-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dGc705qvc9fmwsX8Qmvt-7" source="dGc705qvc9fmwsX8Qmvt-26" target="dGc705qvc9fmwsX8Qmvt-24">
+        <mxCell id="dGc705qvc9fmwsX8Qmvt-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="dGc705qvc9fmwsX8Qmvt-7" source="dGc705qvc9fmwsX8Qmvt-26" target="dGc705qvc9fmwsX8Qmvt-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dGc705qvc9fmwsX8Qmvt-32" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="dGc705qvc9fmwsX8Qmvt-7" source="dGc705qvc9fmwsX8Qmvt-24">
+        <mxCell id="dGc705qvc9fmwsX8Qmvt-32" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="dGc705qvc9fmwsX8Qmvt-7" source="dGc705qvc9fmwsX8Qmvt-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="210" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dGc705qvc9fmwsX8Qmvt-24" value="Spring Actuated Breaker Lever" style="whiteSpace=wrap;html=1;" vertex="1" parent="dGc705qvc9fmwsX8Qmvt-7">
+        <mxCell id="dGc705qvc9fmwsX8Qmvt-24" value="Spring Actuated Breaker Lever" style="whiteSpace=wrap;html=1;" parent="dGc705qvc9fmwsX8Qmvt-7" vertex="1">
           <mxGeometry x="270" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dGc705qvc9fmwsX8Qmvt-26" value="Manual Spring Winder" style="whiteSpace=wrap;html=1;" vertex="1" parent="dGc705qvc9fmwsX8Qmvt-7">
+        <mxCell id="dGc705qvc9fmwsX8Qmvt-26" value="Manual Spring Winder" style="whiteSpace=wrap;html=1;" parent="dGc705qvc9fmwsX8Qmvt-7" vertex="1">
           <mxGeometry x="290" y="100" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dGc705qvc9fmwsX8Qmvt-21" value="I...don&#39;t know how power connects, will change later" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="1610" width="390" height="30" as="geometry" />
+        <mxCell id="dGc705qvc9fmwsX8Qmvt-23" value="Grid Breaker" style="whiteSpace=wrap;html=1;" parent="dGc705qvc9fmwsX8Qmvt-7" vertex="1">
+          <mxGeometry x="90" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dGc705qvc9fmwsX8Qmvt-23" value="Grid Breaker" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1540" y="1390" width="120" height="60" as="geometry" />
+        <mxCell id="dGc705qvc9fmwsX8Qmvt-33" value="Line B Flow" style="whiteSpace=wrap;html=1;" parent="dGc705qvc9fmwsX8Qmvt-7" vertex="1">
+          <mxGeometry x="90" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dGc705qvc9fmwsX8Qmvt-27" value="Mechanical Spring Winder" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dGc705qvc9fmwsX8Qmvt-21" value="I...don&#39;t know how power connects, will change later" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="1635" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dGc705qvc9fmwsX8Qmvt-27" value="Mechanical Spring Winder" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1730" y="1310" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="dGc705qvc9fmwsX8Qmvt-33" value="Line B Flow" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="1360" width="120" height="60" as="geometry" />
+        <mxCell id="3fKYZLzxM2HGqWrKvjzX-4" style="edgeStyle=elbowEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;fontSize=12;startSize=8;endSize=8;endFill=1;entryX=0.95;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dGc705qvc9fmwsX8Qmvt-7" target="5qiNaghYbpfas7nE0gJH-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="660" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
