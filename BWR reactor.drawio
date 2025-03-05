@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="26.0.16" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="26.1.0" pages="3">
   <diagram id="rrJgtZKe2ePh9a-98Gde" name="V1 Control Panel">
     <mxGraphModel dx="1046" dy="667" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="2015" dy="2768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1302" dy="2313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -342,7 +342,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-37" value="Shutdown Cooling (Decay Heat)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2070" y="1150" width="450" height="270" as="geometry" />
+          <mxGeometry x="1920" y="1220" width="450" height="270" as="geometry" />
         </mxCell>
         <mxCell id="tKUN6F0h3y-6Nvg6FrFS-38" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="KEScihgmW8gV4-IKPjgC-37" source="tKUN6F0h3y-6Nvg6FrFS-28" target="tKUN6F0h3y-6Nvg6FrFS-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -445,7 +445,7 @@
         <mxCell id="KEScihgmW8gV4-IKPjgC-71" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" parent="wxt0_Q9f4nGSUfQLP3tp-6" vertex="1">
           <mxGeometry x="37.62" y="487.88" width="121.75" height="6.5" as="geometry" />
         </mxCell>
-        <mxCell id="KEScihgmW8gV4-IKPjgC-133" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="wxt0_Q9f4nGSUfQLP3tp-6" edge="1" source="KEScihgmW8gV4-IKPjgC-59">
+        <mxCell id="KEScihgmW8gV4-IKPjgC-133" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="wxt0_Q9f4nGSUfQLP3tp-6" source="KEScihgmW8gV4-IKPjgC-59" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-30" y="514.0000000000002" as="sourcePoint" />
             <mxPoint x="73" y="564.98" as="targetPoint" />
@@ -580,7 +580,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jyacDCheNU1TuZrJ3NdF-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KEScihgmW8gV4-IKPjgC-112">
+        <mxCell id="jyacDCheNU1TuZrJ3NdF-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="KEScihgmW8gV4-IKPjgC-112" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1450" y="1010" as="targetPoint" />
             <Array as="points">
@@ -592,7 +592,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jyacDCheNU1TuZrJ3NdF-12" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KEScihgmW8gV4-IKPjgC-112" target="KEScihgmW8gV4-IKPjgC-28">
+        <mxCell id="jyacDCheNU1TuZrJ3NdF-12" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="KEScihgmW8gV4-IKPjgC-112" target="KEScihgmW8gV4-IKPjgC-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1540" y="190" />
@@ -827,32 +827,35 @@
         <mxCell id="k97ljpKsMprcKII0X-Vi-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.364;entryY=0.938;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="eMSMq50HMb5_UuFWrkmo-44" target="k97ljpKsMprcKII0X-Vi-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jyacDCheNU1TuZrJ3NdF-3" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="vucA-8wSvYLDTOJaeeL_-1" target="tKUN6F0h3y-6Nvg6FrFS-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="vucA-8wSvYLDTOJaeeL_-1" value="RCIC 1 &amp;amp; 2&lt;br&gt;&lt;a href=&quot;https://www.nrc.gov/docs/ML1125/ML11258A313.pdf&quot;&gt;https://www.nrc.gov/docs/ML1125/ML11258A313.pdf&lt;/a&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
-          <mxGeometry x="2060" y="645" width="990" height="400" as="geometry" />
+          <mxGeometry x="2060" y="645" width="1310" height="565" as="geometry" />
         </mxCell>
-        <mxCell id="jyacDCheNU1TuZrJ3NdF-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="vucA-8wSvYLDTOJaeeL_-1" source="vucA-8wSvYLDTOJaeeL_-2" target="jyacDCheNU1TuZrJ3NdF-6">
+        <mxCell id="jyacDCheNU1TuZrJ3NdF-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="vucA-8wSvYLDTOJaeeL_-1" source="vucA-8wSvYLDTOJaeeL_-2" target="jyacDCheNU1TuZrJ3NdF-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vucA-8wSvYLDTOJaeeL_-2" value="RCIC Inlet, Has steam from line out, water from CSP tanks for system testing, and water from CSP for minimum flow" style="rounded=0;whiteSpace=wrap;html=1;" parent="vucA-8wSvYLDTOJaeeL_-1" vertex="1">
           <mxGeometry x="30" y="50" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jyacDCheNU1TuZrJ3NdF-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;startArrow=classic;startFill=1;endArrow=none;" edge="1" parent="vucA-8wSvYLDTOJaeeL_-1" source="vucA-8wSvYLDTOJaeeL_-3" target="jyacDCheNU1TuZrJ3NdF-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="vucA-8wSvYLDTOJaeeL_-3" value="Outlet, exits are steam CSP vents - underwater" style="rounded=0;whiteSpace=wrap;html=1;" parent="vucA-8wSvYLDTOJaeeL_-1" vertex="1">
           <mxGeometry x="300" y="50" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jyacDCheNU1TuZrJ3NdF-6" value="Steam Supply Isolation Valves (2) - AC powered, open on standby - MOV-47 &amp;amp; 48" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vucA-8wSvYLDTOJaeeL_-1">
+        <mxCell id="WJzQsB_H5gwof-JBOmg6-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="vucA-8wSvYLDTOJaeeL_-1" source="jyacDCheNU1TuZrJ3NdF-6" target="jyacDCheNU1TuZrJ3NdF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jyacDCheNU1TuZrJ3NdF-6" value="Steam Supply Isolation Valves (2) - AC powered, open on standby - MOV-47 &amp;amp; 48" style="rounded=0;whiteSpace=wrap;html=1;" parent="vucA-8wSvYLDTOJaeeL_-1" vertex="1">
           <mxGeometry x="20" y="185" width="130" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="jyacDCheNU1TuZrJ3NdF-15" value="Steam Outboard Isolation Valves (2) - DC (safety bus) powered, closed on standby" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vucA-8wSvYLDTOJaeeL_-1">
-          <mxGeometry x="275" y="155" width="130" height="75" as="geometry" />
+        <mxCell id="WJzQsB_H5gwof-JBOmg6-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="vucA-8wSvYLDTOJaeeL_-1" source="jyacDCheNU1TuZrJ3NdF-15" target="vucA-8wSvYLDTOJaeeL_-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jyacDCheNU1TuZrJ3NdF-7" value="Steam to Turbine Valve - MOV 43, normally closed, DC power, auto opens at level 2 (-38&#39;) and closes at level 8 (+56.5&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vucA-8wSvYLDTOJaeeL_-1">
-          <mxGeometry x="135" y="285" width="165" height="95" as="geometry" />
+        <mxCell id="WJzQsB_H5gwof-JBOmg6-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="vucA-8wSvYLDTOJaeeL_-1" source="jyacDCheNU1TuZrJ3NdF-15" target="jyacDCheNU1TuZrJ3NdF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jyacDCheNU1TuZrJ3NdF-15" value="Steam Outboard Isolation Valves (2) - DC (safety bus) powered, closed on standby" style="rounded=0;whiteSpace=wrap;html=1;" parent="vucA-8wSvYLDTOJaeeL_-1" vertex="1">
+          <mxGeometry x="150" y="185" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="jyacDCheNU1TuZrJ3NdF-7" value="Steam to Turbine Valve - MOV 43, normally closed, DC power, auto opens at level 2 (-38&#39;) and closes at level 8 (+56.5&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" parent="vucA-8wSvYLDTOJaeeL_-1" vertex="1">
+          <mxGeometry x="90" y="285" width="165" height="95" as="geometry" />
         </mxCell>
         <mxCell id="vucA-8wSvYLDTOJaeeL_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="vucA-8wSvYLDTOJaeeL_-6" target="vucA-8wSvYLDTOJaeeL_-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -896,13 +899,13 @@
         <mxCell id="tKUN6F0h3y-6Nvg6FrFS-25" value="CSP Valve to CSSL" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1860" y="480" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jyacDCheNU1TuZrJ3NdF-4" value="The purpose of the RCIC is to give makeup water to RCV for core cooling: for when steam lines are off or condensers/feedwater is unavailable. Standardized for 15 minutes of vessel level, it is INDEPENDENT of AC power, and all to support it requires DC or standby lineup as necessary . It is functionally classified as a ESF, with HPCI backing it up. &lt;i&gt;2.7-2.1 USNRC HRTD RCICS&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jyacDCheNU1TuZrJ3NdF-4" value="The purpose of the RCIC is to give makeup water to RCV for core cooling: for when steam lines are off or condensers/feedwater is unavailable. Standardized for 15 minutes of vessel level, it is INDEPENDENT of AC power, and all to support it requires DC or standby lineup as necessary . It is functionally classified as a ESF, with HPCI backing it up. &lt;i&gt;2.7-2.1 USNRC HRTD RCICS&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2720" y="345" width="180" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="jyacDCheNU1TuZrJ3NdF-5" value="Outlet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jyacDCheNU1TuZrJ3NdF-5" value="Outlet" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2670" y="582.31" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jyacDCheNU1TuZrJ3NdF-14" value="The reason for different buses is AC vs DC power. The reactor generates AC power, which is used to fufill network demand and plant demand. However, there are many safety systems in place that have DC power for emergency situations and such" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jyacDCheNU1TuZrJ3NdF-14" value="The reason for different buses is AC vs DC power. The reactor generates AC power, which is used to fufill network demand and plant demand. However, there are many safety systems in place that have DC power for emergency situations and such" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="630" width="210" height="160" as="geometry" />
         </mxCell>
       </root>
