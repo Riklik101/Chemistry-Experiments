@@ -722,7 +722,7 @@
         <mxCell id="KEScihgmW8gV4-IKPjgC-59" value="HPCI outlet" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1500" y="610" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WCcT-g0CYxjj1Q7qOdfN-1" value="Extremely &amp;nbsp;simplified version of battery buses: most plants have many more, but for simplicity this many are sufficient.&amp;nbsp;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="WCcT-g0CYxjj1Q7qOdfN-1" value="Extremely &amp;nbsp;simplified version of battery buses: most plants have many more, but for simplicity this many are sufficient. I WILL BE MAKING A FULL ELECTRICAL DIAGRAM LATER THEN IMPORTING IT" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="710" y="1115" width="230" height="150" as="geometry" />
         </mxCell>
         <mxCell id="j6LHovaZfRzmMKkW-KHH-1" value="Emergency CSP pumps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
@@ -833,14 +833,17 @@
         <mxCell id="vucA-8wSvYLDTOJaeeL_-1" value="RCIC 1 &amp;amp; 2&lt;br&gt;&lt;a href=&quot;https://www.nrc.gov/docs/ML1125/ML11258A313.pdf&quot;&gt;https://www.nrc.gov/docs/ML1125/ML11258A313.pdf&lt;/a&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="2060" y="645" width="420" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="vucA-8wSvYLDTOJaeeL_-2" value="RCIC Inlet (RWCU Inlet)" style="rounded=0;whiteSpace=wrap;html=1;" parent="vucA-8wSvYLDTOJaeeL_-1" vertex="1">
-          <mxGeometry x="30" y="50" width="80" height="60" as="geometry" />
+        <mxCell id="jyacDCheNU1TuZrJ3NdF-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="vucA-8wSvYLDTOJaeeL_-1" source="vucA-8wSvYLDTOJaeeL_-2" target="jyacDCheNU1TuZrJ3NdF-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vucA-8wSvYLDTOJaeeL_-3" value="Outlet" style="rounded=0;whiteSpace=wrap;html=1;" parent="vucA-8wSvYLDTOJaeeL_-1" vertex="1">
+        <mxCell id="vucA-8wSvYLDTOJaeeL_-2" value="RCIC Inlet, Has steam from line out, water from CSP tanks for system testing, and water from CSP for minimum flow" style="rounded=0;whiteSpace=wrap;html=1;" parent="vucA-8wSvYLDTOJaeeL_-1" vertex="1">
+          <mxGeometry x="30" y="50" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vucA-8wSvYLDTOJaeeL_-3" value="Outlet, exits are steam CSP vents - underwater" style="rounded=0;whiteSpace=wrap;html=1;" parent="vucA-8wSvYLDTOJaeeL_-1" vertex="1">
           <mxGeometry x="300" y="50" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jyacDCheNU1TuZrJ3NdF-6" value="Outlet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vucA-8wSvYLDTOJaeeL_-1">
-          <mxGeometry x="50" y="145" width="80" height="60" as="geometry" />
+        <mxCell id="jyacDCheNU1TuZrJ3NdF-6" value="Steam Supply Isolation Valves (2)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vucA-8wSvYLDTOJaeeL_-1">
+          <mxGeometry x="20" y="185" width="120" height="75" as="geometry" />
         </mxCell>
         <mxCell id="vucA-8wSvYLDTOJaeeL_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="vucA-8wSvYLDTOJaeeL_-6" target="vucA-8wSvYLDTOJaeeL_-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
