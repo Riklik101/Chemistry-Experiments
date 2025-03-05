@@ -16,7 +16,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="517" dy="1680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="424" dy="1576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -342,7 +342,42 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-37" value="Shutdown Cooling (Decay Heat)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1990" y="1090" width="370" height="200" as="geometry" />
+          <mxGeometry x="1920" y="1270" width="450" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-38" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="KEScihgmW8gV4-IKPjgC-37" source="tKUN6F0h3y-6Nvg6FrFS-28" target="tKUN6F0h3y-6Nvg6FrFS-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-28" value="Filter 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
+          <mxGeometry x="90" y="30" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-39" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="KEScihgmW8gV4-IKPjgC-37" source="tKUN6F0h3y-6Nvg6FrFS-33" target="tKUN6F0h3y-6Nvg6FrFS-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-33" value="Filter 2" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
+          <mxGeometry x="90" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-32" value="Water Filter Valve IN" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
+          <mxGeometry x="50" y="85" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-36" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="KEScihgmW8gV4-IKPjgC-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="140" as="sourcePoint" />
+            <mxPoint x="150" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-37" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="KEScihgmW8gV4-IKPjgC-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="104.85" as="sourcePoint" />
+            <mxPoint x="150" y="104.85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-31" value="WTRFILT OUT" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
+          <mxGeometry x="180" y="85" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-40" value="Shutdown Water Cooling" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
+          <mxGeometry x="290" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-38" value="" style="group;flipV=0;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1880" y="800" width="70" height="240" as="geometry" />
@@ -805,6 +840,18 @@
         </mxCell>
         <mxCell id="tKUN6F0h3y-6Nvg6FrFS-25" value="CSP Valve to CSSL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1860" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-42" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;startFill=0;startArrow=classic;" edge="1" parent="1" source="tKUN6F0h3y-6Nvg6FrFS-29" target="tKUN6F0h3y-6Nvg6FrFS-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-29" value="Service water out" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2286" y="1510" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-30" value="Service WTR IN" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="1170" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-41" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.083;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="tKUN6F0h3y-6Nvg6FrFS-30" target="tKUN6F0h3y-6Nvg6FrFS-40">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
