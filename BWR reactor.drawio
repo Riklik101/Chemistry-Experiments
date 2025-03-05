@@ -16,7 +16,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="371" dy="1517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="517" dy="1680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -533,6 +533,14 @@
         <mxCell id="KEScihgmW8gV4-IKPjgC-112" value="Steam Out to Turbine" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1400" y="360" width="160" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KEScihgmW8gV4-IKPjgC-120" target="tKUN6F0h3y-6Nvg6FrFS-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1910" y="320.0000000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1910" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-120" value="Core Supression Pool (Located above RCV enabling gravity-fed flow if low power or no power, also condenses radioactive steam in the event RCV is at maximum pressure or steam valves open, and also handles emergency releases," style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1559.38" y="-160" width="280" height="280" as="geometry" />
         </mxCell>
@@ -778,6 +786,25 @@
           <mxGeometry x="-0.0238" y="-1" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-22" value="Core Spray Supply Line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="630" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.011;entryY=0.344;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="tKUN6F0h3y-6Nvg6FrFS-22" target="6rTAJGrIADEqD6MdZbD7-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1840" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-24" value="Core Spray Supply Line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="410" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-27" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="tKUN6F0h3y-6Nvg6FrFS-25" target="tKUN6F0h3y-6Nvg6FrFS-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-25" value="CSP Valve to CSSL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="480" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
