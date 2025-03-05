@@ -16,7 +16,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="865" dy="2313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="560" dy="1885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -895,6 +895,9 @@
         </mxCell>
         <mxCell id="jyacDCheNU1TuZrJ3NdF-7" value="Outlet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2610" y="460" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jyacDCheNU1TuZrJ3NdF-14" value="The reason for different buses is AC vs DC power. The reactor generates AC power, which is used to fufill network demand and plant demand. However, there are many safety systems in place that have DC power for emergency situations and such" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="630" width="210" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
