@@ -16,7 +16,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="1302" dy="2313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="796" dy="1841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -857,6 +857,12 @@
         <mxCell id="jyacDCheNU1TuZrJ3NdF-7" value="Steam to Turbine Valve - MOV 43, normally closed, DC power, auto opens at level 2 (-38&#39;) and closes at level 8 (+56.5&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" parent="vucA-8wSvYLDTOJaeeL_-1" vertex="1">
           <mxGeometry x="90" y="285" width="165" height="95" as="geometry" />
         </mxCell>
+        <mxCell id="WJzQsB_H5gwof-JBOmg6-10" value="MOV-44 Turbine trip &amp;amp; throttle valve - automaticaly shuts steam to turbine when needed, if electrically tripped, requires full closing of valve by electronic system, electrically powered by DC bus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vucA-8wSvYLDTOJaeeL_-1">
+          <mxGeometry x="360" y="265" width="190" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="WJzQsB_H5gwof-JBOmg6-9" value="Outlet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vucA-8wSvYLDTOJaeeL_-1">
+          <mxGeometry x="600" y="302.5" width="80" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="vucA-8wSvYLDTOJaeeL_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="vucA-8wSvYLDTOJaeeL_-6" target="vucA-8wSvYLDTOJaeeL_-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -907,6 +913,21 @@
         </mxCell>
         <mxCell id="jyacDCheNU1TuZrJ3NdF-14" value="The reason for different buses is AC vs DC power. The reactor generates AC power, which is used to fufill network demand and plant demand. However, there are many safety systems in place that have DC power for emergency situations and such" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="630" width="210" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="WJzQsB_H5gwof-JBOmg6-4" value="Outlet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="592.31" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJzQsB_H5gwof-JBOmg6-5" value="Outlet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2690" y="602.31" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJzQsB_H5gwof-JBOmg6-6" value="Outlet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="612.31" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJzQsB_H5gwof-JBOmg6-7" value="Outlet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="622.31" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WJzQsB_H5gwof-JBOmg6-8" value="Outlet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2720" y="632.31" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
