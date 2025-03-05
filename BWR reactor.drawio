@@ -16,7 +16,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="595" dy="1934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2015" dy="2768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -342,7 +342,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-37" value="Shutdown Cooling (Decay Heat)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2080" y="1170" width="450" height="270" as="geometry" />
+          <mxGeometry x="2070" y="1150" width="450" height="270" as="geometry" />
         </mxCell>
         <mxCell id="tKUN6F0h3y-6Nvg6FrFS-38" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="KEScihgmW8gV4-IKPjgC-37" source="tKUN6F0h3y-6Nvg6FrFS-28" target="tKUN6F0h3y-6Nvg6FrFS-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -852,7 +852,7 @@
           <mxGeometry x="275" y="155" width="130" height="75" as="geometry" />
         </mxCell>
         <mxCell id="jyacDCheNU1TuZrJ3NdF-7" value="Steam to Turbine Valve - MOV 43, normally closed, DC power, auto opens at level 2 (-38&#39;) and closes at level 8 (+56.5&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vucA-8wSvYLDTOJaeeL_-1">
-          <mxGeometry x="65" y="295" width="165" height="95" as="geometry" />
+          <mxGeometry x="135" y="285" width="165" height="95" as="geometry" />
         </mxCell>
         <mxCell id="vucA-8wSvYLDTOJaeeL_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="vucA-8wSvYLDTOJaeeL_-6" target="vucA-8wSvYLDTOJaeeL_-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
