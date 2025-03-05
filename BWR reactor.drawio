@@ -16,7 +16,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="701" dy="1680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="371" dy="1517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -255,9 +255,6 @@
         <mxCell id="6rTAJGrIADEqD6MdZbD7-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="6rTAJGrIADEqD6MdZbD7-4" target="6rTAJGrIADEqD6MdZbD7-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6rTAJGrIADEqD6MdZbD7-4" value="Control Rod Driver" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1650" y="1140" width="100" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="6rTAJGrIADEqD6MdZbD7-6" value="" style="group;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1050" y="1075" width="340" height="330" as="geometry" />
         </mxCell>
@@ -386,8 +383,8 @@
         <mxCell id="KEScihgmW8gV4-IKPjgC-58" value="Turbine" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1480" y="540" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wxt0_Q9f4nGSUfQLP3tp-6" value="Reactor Containment Vessel" style="swimlane;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1560" y="220" width="280" height="905" as="geometry" />
+        <mxCell id="wxt0_Q9f4nGSUfQLP3tp-6" value="Reactor Containment Vessel" style="swimlane;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;gradientColor=none;horizontal=1;verticalAlign=bottom;fontSize=6;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="220" width="280" height="1030" as="geometry" />
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-97" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" parent="wxt0_Q9f4nGSUfQLP3tp-6" vertex="1">
           <mxGeometry x="80.38" y="481.12" width="119.25" height="6.5" as="geometry" />
@@ -409,6 +406,27 @@
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-99" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" parent="wxt0_Q9f4nGSUfQLP3tp-6" vertex="1">
           <mxGeometry x="119.25" y="483" width="118.5" height="6.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-1" value="Head Spray Valve" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="wxt0_Q9f4nGSUfQLP3tp-6">
+          <mxGeometry x="90.01000000000022" y="30" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="wxt0_Q9f4nGSUfQLP3tp-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="860" as="sourcePoint" />
+            <mxPoint x="280" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6rTAJGrIADEqD6MdZbD7-4" value="Control Rod Driver(s)" style="rounded=0;whiteSpace=wrap;html=1;" parent="wxt0_Q9f4nGSUfQLP3tp-6" vertex="1">
+          <mxGeometry x="99.69999999999999" y="880" width="80.62" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-10" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Core Flux Monitor&lt;/font&gt;" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;fillColor=#ffe6cc;strokeColor=#d79b00;exitX=0.496;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="wxt0_Q9f4nGSUfQLP3tp-6" source="tKUN6F0h3y-6Nvg6FrFS-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90.01" y="960" as="sourcePoint" />
+            <mxPoint x="90.02000000000001" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-21" value="Flux Monitor Driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wxt0_Q9f4nGSUfQLP3tp-6">
+          <mxGeometry x="50" y="960" width="80.62" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6rTAJGrIADEqD6MdZbD7-2" value="Fuel + Control Rod Assemblies" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1640" y="745" width="118.75" height="160" as="geometry" />
@@ -738,9 +756,6 @@
         <mxCell id="vucA-8wSvYLDTOJaeeL_-3" value="Outlet" style="rounded=0;whiteSpace=wrap;html=1;" parent="vucA-8wSvYLDTOJaeeL_-1" vertex="1">
           <mxGeometry x="300" y="50" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vucA-8wSvYLDTOJaeeL_-4" value="Reactor Bottom head Drain" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1839.38" y="1130" width="80" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="vucA-8wSvYLDTOJaeeL_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="vucA-8wSvYLDTOJaeeL_-6" target="vucA-8wSvYLDTOJaeeL_-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -749,6 +764,20 @@
         </mxCell>
         <mxCell id="vucA-8wSvYLDTOJaeeL_-7" value="&lt;a href=&quot;https://www.nrc.gov/docs/ML1215/ML12158A330.pdf&quot;&gt;https://www.nrc.gov/docs/ML1215/ML12158A330.pdf&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="2420" y="95" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=11.90625;curved=1;width=6.875;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1800" y="1080" as="sourcePoint" />
+            <mxPoint x="1920" y="1140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1800" y="1140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-4" value="Bottom Head Drain" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontStyle=0" vertex="1" connectable="0" parent="tKUN6F0h3y-6Nvg6FrFS-3">
+          <mxGeometry x="-0.0238" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
