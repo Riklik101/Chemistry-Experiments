@@ -16,7 +16,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="699" dy="1885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="771" dy="2126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -344,54 +344,54 @@
         <mxCell id="KEScihgmW8gV4-IKPjgC-37" value="Shutdown Cooling (Decay Heat)" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2080" y="1170" width="450" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-38" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="KEScihgmW8gV4-IKPjgC-37" source="tKUN6F0h3y-6Nvg6FrFS-28" target="tKUN6F0h3y-6Nvg6FrFS-31">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-38" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="KEScihgmW8gV4-IKPjgC-37" source="tKUN6F0h3y-6Nvg6FrFS-28" target="tKUN6F0h3y-6Nvg6FrFS-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-28" value="Filter 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-28" value="Filter 1" style="whiteSpace=wrap;html=1;" parent="KEScihgmW8gV4-IKPjgC-37" vertex="1">
           <mxGeometry x="90" y="30" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-39" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="KEScihgmW8gV4-IKPjgC-37" source="tKUN6F0h3y-6Nvg6FrFS-33" target="tKUN6F0h3y-6Nvg6FrFS-31">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-39" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="KEScihgmW8gV4-IKPjgC-37" source="tKUN6F0h3y-6Nvg6FrFS-33" target="tKUN6F0h3y-6Nvg6FrFS-31" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-33" value="Filter 2" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-33" value="Filter 2" style="whiteSpace=wrap;html=1;" parent="KEScihgmW8gV4-IKPjgC-37" vertex="1">
           <mxGeometry x="90" y="140" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-32" value="Water Filter Valve IN" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-32" value="Water Filter Valve IN" style="whiteSpace=wrap;html=1;" parent="KEScihgmW8gV4-IKPjgC-37" vertex="1">
           <mxGeometry x="50" y="85" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-36" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="KEScihgmW8gV4-IKPjgC-37">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-36" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" parent="KEScihgmW8gV4-IKPjgC-37" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="140" as="sourcePoint" />
             <mxPoint x="150" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-37" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="KEScihgmW8gV4-IKPjgC-37">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-37" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" parent="KEScihgmW8gV4-IKPjgC-37" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="104.85" as="sourcePoint" />
             <mxPoint x="150" y="104.85" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-43" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="KEScihgmW8gV4-IKPjgC-37" source="tKUN6F0h3y-6Nvg6FrFS-31" target="tKUN6F0h3y-6Nvg6FrFS-40">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-43" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="KEScihgmW8gV4-IKPjgC-37" source="tKUN6F0h3y-6Nvg6FrFS-31" target="tKUN6F0h3y-6Nvg6FrFS-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-31" value="WTRFILT OUT" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-31" value="WTRFILT OUT" style="whiteSpace=wrap;html=1;" parent="KEScihgmW8gV4-IKPjgC-37" vertex="1">
           <mxGeometry x="180" y="85" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-40" value="Shutdown Water Cooling" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-40" value="Shutdown Water Cooling" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="KEScihgmW8gV4-IKPjgC-37" vertex="1">
           <mxGeometry x="290" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-29" value="Service water out" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-29" value="Service water out" style="whiteSpace=wrap;html=1;" parent="KEScihgmW8gV4-IKPjgC-37" vertex="1">
           <mxGeometry x="340" y="170" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-42" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;startFill=0;startArrow=classic;" edge="1" parent="KEScihgmW8gV4-IKPjgC-37" source="tKUN6F0h3y-6Nvg6FrFS-29" target="tKUN6F0h3y-6Nvg6FrFS-40">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-42" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;endArrow=none;startFill=0;startArrow=classic;" parent="KEScihgmW8gV4-IKPjgC-37" source="tKUN6F0h3y-6Nvg6FrFS-29" target="tKUN6F0h3y-6Nvg6FrFS-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-30" value="Service WTR IN" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-30" value="Service WTR IN" style="whiteSpace=wrap;html=1;" parent="KEScihgmW8gV4-IKPjgC-37" vertex="1">
           <mxGeometry x="310" y="10" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-41" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.083;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="KEScihgmW8gV4-IKPjgC-37" source="tKUN6F0h3y-6Nvg6FrFS-30" target="tKUN6F0h3y-6Nvg6FrFS-40">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-41" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.083;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" parent="KEScihgmW8gV4-IKPjgC-37" source="tKUN6F0h3y-6Nvg6FrFS-30" target="tKUN6F0h3y-6Nvg6FrFS-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-38" value="" style="group;flipV=0;" parent="1" vertex="1" connectable="0">
@@ -457,10 +457,10 @@
         <mxCell id="KEScihgmW8gV4-IKPjgC-99" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" parent="wxt0_Q9f4nGSUfQLP3tp-6" vertex="1">
           <mxGeometry x="119.25" y="483" width="118.5" height="6.5" as="geometry" />
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-1" value="Head Spray Valve" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="wxt0_Q9f4nGSUfQLP3tp-6">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-1" value="Head Spray Valve" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="wxt0_Q9f4nGSUfQLP3tp-6" vertex="1">
           <mxGeometry x="90.01000000000022" y="30" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="wxt0_Q9f4nGSUfQLP3tp-6">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" parent="wxt0_Q9f4nGSUfQLP3tp-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="860" as="sourcePoint" />
             <mxPoint x="280" y="860" as="targetPoint" />
@@ -469,13 +469,13 @@
         <mxCell id="6rTAJGrIADEqD6MdZbD7-4" value="Control Rod Driver(s)" style="rounded=0;whiteSpace=wrap;html=1;" parent="wxt0_Q9f4nGSUfQLP3tp-6" vertex="1">
           <mxGeometry x="99.69999999999999" y="880" width="80.62" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-10" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Core Flux Monitor&lt;/font&gt;" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;fillColor=#ffe6cc;strokeColor=#d79b00;exitX=0.496;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="wxt0_Q9f4nGSUfQLP3tp-6" source="tKUN6F0h3y-6Nvg6FrFS-21">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-10" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Core Flux Monitor&lt;/font&gt;" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;fillColor=#ffe6cc;strokeColor=#d79b00;exitX=0.496;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="wxt0_Q9f4nGSUfQLP3tp-6" source="tKUN6F0h3y-6Nvg6FrFS-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="90.01" y="960" as="sourcePoint" />
             <mxPoint x="90.02000000000001" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-21" value="Flux Monitor Driver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wxt0_Q9f4nGSUfQLP3tp-6">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-21" value="Flux Monitor Driver" style="rounded=0;whiteSpace=wrap;html=1;" parent="wxt0_Q9f4nGSUfQLP3tp-6" vertex="1">
           <mxGeometry x="50" y="960" width="80.62" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6rTAJGrIADEqD6MdZbD7-2" value="Fuel + Control Rod Assemblies" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -583,7 +583,7 @@
         <mxCell id="KEScihgmW8gV4-IKPjgC-112" value="Steam Out to Turbine" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1400" y="360" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KEScihgmW8gV4-IKPjgC-120" target="tKUN6F0h3y-6Nvg6FrFS-25">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-26" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KEScihgmW8gV4-IKPjgC-120" target="tKUN6F0h3y-6Nvg6FrFS-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1910" y="320.0000000000002" as="targetPoint" />
             <Array as="points">
@@ -805,6 +805,9 @@
         <mxCell id="k97ljpKsMprcKII0X-Vi-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.364;entryY=0.938;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="eMSMq50HMb5_UuFWrkmo-44" target="k97ljpKsMprcKII0X-Vi-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="jyacDCheNU1TuZrJ3NdF-3" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="vucA-8wSvYLDTOJaeeL_-1" target="tKUN6F0h3y-6Nvg6FrFS-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vucA-8wSvYLDTOJaeeL_-1" value="RCIC 1 &amp;amp; 2&lt;br&gt;&lt;a href=&quot;https://www.nrc.gov/docs/ML1125/ML11258A313.pdf&quot;&gt;https://www.nrc.gov/docs/ML1125/ML11258A313.pdf&lt;/a&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="2060" y="645" width="420" height="400" as="geometry" />
         </mxCell>
@@ -823,7 +826,7 @@
         <mxCell id="vucA-8wSvYLDTOJaeeL_-7" value="&lt;a href=&quot;https://www.nrc.gov/docs/ML1215/ML12158A330.pdf&quot;&gt;https://www.nrc.gov/docs/ML1215/ML12158A330.pdf&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="2420" y="95" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=11.90625;curved=1;width=6.875;" edge="1" parent="1">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=11.90625;curved=1;width=6.875;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1800" y="1080" as="sourcePoint" />
             <mxPoint x="1920" y="1140" as="targetPoint" />
@@ -832,29 +835,41 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-4" value="Bottom Head Drain" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontStyle=0" vertex="1" connectable="0" parent="tKUN6F0h3y-6Nvg6FrFS-3">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-4" value="Bottom Head Drain" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontStyle=0" parent="tKUN6F0h3y-6Nvg6FrFS-3" vertex="1" connectable="0">
           <mxGeometry x="-0.0238" y="-1" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-22" value="Core Spray Supply Line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-22" value="Core Spray Supply Line" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1860" y="630" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.011;entryY=0.344;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="tKUN6F0h3y-6Nvg6FrFS-22" target="6rTAJGrIADEqD6MdZbD7-2">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.011;entryY=0.344;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="tKUN6F0h3y-6Nvg6FrFS-22" target="6rTAJGrIADEqD6MdZbD7-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1840" y="780" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-24" value="Core Spray Supply Line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-24" value="Core Spray Supply Line" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2040" y="410" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-27" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="tKUN6F0h3y-6Nvg6FrFS-25" target="tKUN6F0h3y-6Nvg6FrFS-22">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-27" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="tKUN6F0h3y-6Nvg6FrFS-25" target="tKUN6F0h3y-6Nvg6FrFS-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-25" value="CSP Valve to CSSL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tKUN6F0h3y-6Nvg6FrFS-25" value="CSP Valve to CSSL" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1860" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jyacDCheNU1TuZrJ3NdF-4" value="The purpose of the RCIC is to give makeup water to RCV for core cooling: for when steam lines are off or condensers/feedwater is unavailable. Standardized for 15 minutes of vessel level, it is INDEPENDENT of AC power, and all to support it requires DC or standby lineup as necessary . It is functionally classified as a ESF, with HPCI backing it up. &lt;i&gt;2.7-2.1 USNRC HRTD RCICS&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2580" y="670" width="180" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="jyacDCheNU1TuZrJ3NdF-5" value="Outlet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2670" y="582.31" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jyacDCheNU1TuZrJ3NdF-6" value="Outlet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2630" y="535" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jyacDCheNU1TuZrJ3NdF-7" value="Outlet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2610" y="460" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
