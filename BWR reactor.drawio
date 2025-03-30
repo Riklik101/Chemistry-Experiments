@@ -16,7 +16,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="996" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1494" dy="2053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1050,10 +1050,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5q92ABtrSCNYLcb_oRLp-25" value="Steam from main lines" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3450" y="340" width="80" height="60" as="geometry" />
+          <mxGeometry x="3420" y="400" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5q92ABtrSCNYLcb_oRLp-31" value="RCIC Simplfiied System DIagram" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="4040" y="60" width="200" height="200" as="geometry" />
+          <mxGeometry x="3990" y="30" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="DTDLvSKwGmbWVXUIPNlI-1" value="RCIC system - the point of this system is during shutdown conditions, before RHR or residual heat can be removed. It is not normally classified as an emergencys ystem although it can be used as such. It uses steam from the decay heat to drive a pump. THe pump gains water from CST tanks or SUPPRESSION POOL in emergencies. This system does not have a LOCA or EMCS function as it is not normally calssified as an emergency system" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2860" y="1430" width="450" height="140" as="geometry" />
@@ -1062,10 +1062,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DTDLvSKwGmbWVXUIPNlI-2" value="Water from CST or CSP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4010" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="4000" y="265" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DTDLvSKwGmbWVXUIPNlI-4" value="Water to RCV" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3840" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DTDLvSKwGmbWVXUIPNlI-6" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3550" y="80" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
