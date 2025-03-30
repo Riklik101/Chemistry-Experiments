@@ -16,7 +16,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="634" dy="1504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="896" dy="1841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -314,21 +314,21 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KEScihgmW8gV4-IKPjgC-24" value="RCIC water" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="KEScihgmW8gV4-IKPjgC-6" vertex="1" connectable="0">
+        <mxCell id="KEScihgmW8gV4-IKPjgC-24" value="RCS water" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="KEScihgmW8gV4-IKPjgC-6" vertex="1" connectable="0">
           <mxGeometry x="-0.1143" y="-6" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KEScihgmW8gV4-IKPjgC-1" value="RCIC 1 INLET" style="rounded=0;whiteSpace=wrap;html=1;" parent="KEScihgmW8gV4-IKPjgC-23" vertex="1">
+        <mxCell id="KEScihgmW8gV4-IKPjgC-1" value="RCS 1 INLET" style="rounded=0;whiteSpace=wrap;html=1;" parent="KEScihgmW8gV4-IKPjgC-23" vertex="1">
           <mxGeometry y="190" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="KEScihgmW8gV4-IKPjgC-23" source="KEScihgmW8gV4-IKPjgC-2" target="KEScihgmW8gV4-IKPjgC-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KEScihgmW8gV4-IKPjgC-2" value="RCIC 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="KEScihgmW8gV4-IKPjgC-23" vertex="1">
+        <mxCell id="KEScihgmW8gV4-IKPjgC-2" value="RCS 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="KEScihgmW8gV4-IKPjgC-23" vertex="1">
           <mxGeometry y="90" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KEScihgmW8gV4-IKPjgC-3" value="RCIC OUTLET" style="rounded=0;whiteSpace=wrap;html=1;" parent="KEScihgmW8gV4-IKPjgC-23" vertex="1">
+        <mxCell id="KEScihgmW8gV4-IKPjgC-3" value="RCS 1 OUTLET" style="rounded=0;whiteSpace=wrap;html=1;" parent="KEScihgmW8gV4-IKPjgC-23" vertex="1">
           <mxGeometry width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-33" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="KEScihgmW8gV4-IKPjgC-28" edge="1">
@@ -404,21 +404,21 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KEScihgmW8gV4-IKPjgC-27" value="RCIC water" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="KEScihgmW8gV4-IKPjgC-26" vertex="1" connectable="0">
+        <mxCell id="KEScihgmW8gV4-IKPjgC-27" value="RCS water" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="KEScihgmW8gV4-IKPjgC-26" vertex="1" connectable="0">
           <mxGeometry x="-0.1143" y="-6" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KEScihgmW8gV4-IKPjgC-28" value="RCIC 2 INLET" style="rounded=0;whiteSpace=wrap;html=1;" parent="KEScihgmW8gV4-IKPjgC-38" vertex="1">
+        <mxCell id="KEScihgmW8gV4-IKPjgC-28" value="RCS 2 INLET" style="rounded=0;whiteSpace=wrap;html=1;" parent="KEScihgmW8gV4-IKPjgC-38" vertex="1">
           <mxGeometry y="190" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="KEScihgmW8gV4-IKPjgC-38" source="KEScihgmW8gV4-IKPjgC-30" target="KEScihgmW8gV4-IKPjgC-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KEScihgmW8gV4-IKPjgC-30" value="RCIC 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="KEScihgmW8gV4-IKPjgC-38" vertex="1">
+        <mxCell id="KEScihgmW8gV4-IKPjgC-30" value="RCS 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="KEScihgmW8gV4-IKPjgC-38" vertex="1">
           <mxGeometry y="90" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KEScihgmW8gV4-IKPjgC-31" value="RCIC 2 OUTLET" style="rounded=0;whiteSpace=wrap;html=1;" parent="KEScihgmW8gV4-IKPjgC-38" vertex="1">
+        <mxCell id="KEScihgmW8gV4-IKPjgC-31" value="RCS 2 OUTLET" style="rounded=0;whiteSpace=wrap;html=1;" parent="KEScihgmW8gV4-IKPjgC-38" vertex="1">
           <mxGeometry width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-52" value="HPCI" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
