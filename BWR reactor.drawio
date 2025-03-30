@@ -16,7 +16,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="1743" dy="2212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="996" dy="1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -996,17 +996,17 @@
         <mxCell id="0Ml-Xhh6FxjBQ1p-4Oy4-14" value="Speed Controller" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3690" y="586.15" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5q92ABtrSCNYLcb_oRLp-8" value="" style="group;rotation=-1;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="3860" y="390" width="240" height="80" as="geometry" />
+        <mxCell id="5q92ABtrSCNYLcb_oRLp-8" value="" style="group;rotation=0;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="3860" y="380" width="250.09" height="85" as="geometry" />
         </mxCell>
         <mxCell id="5q92ABtrSCNYLcb_oRLp-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;endArrow=none;startFill=0;" parent="5q92ABtrSCNYLcb_oRLp-8" source="5q92ABtrSCNYLcb_oRLp-3" target="5q92ABtrSCNYLcb_oRLp-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5q92ABtrSCNYLcb_oRLp-3" value="RCIC Flow Element" style="ellipse;whiteSpace=wrap;html=1;rotation=-1;" parent="5q92ABtrSCNYLcb_oRLp-8" vertex="1">
-          <mxGeometry y="1" width="80" height="80" as="geometry" />
+        <mxCell id="5q92ABtrSCNYLcb_oRLp-3" value="RCIC Flow Element" style="ellipse;whiteSpace=wrap;html=1;rotation=0;" parent="5q92ABtrSCNYLcb_oRLp-8" vertex="1">
+          <mxGeometry width="83.36333333333333" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="5q92ABtrSCNYLcb_oRLp-4" value="RCIC Flow Monitor" style="whiteSpace=wrap;html=1;rotation=-1;" parent="5q92ABtrSCNYLcb_oRLp-8" vertex="1">
-          <mxGeometry x="120" y="24" width="120" height="30" as="geometry" />
+        <mxCell id="5q92ABtrSCNYLcb_oRLp-4" value="RCIC Flow Monitor" style="whiteSpace=wrap;html=1;rotation=0;" parent="5q92ABtrSCNYLcb_oRLp-8" vertex="1">
+          <mxGeometry x="125.045" y="26.444444444444443" width="125.045" height="31.875" as="geometry" />
         </mxCell>
         <mxCell id="5q92ABtrSCNYLcb_oRLp-9" value="RCIC Turbine" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3560" y="230" width="120" height="130" as="geometry" />
@@ -1024,6 +1024,9 @@
           <mxGeometry x="-0.3571" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DTDLvSKwGmbWVXUIPNlI-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="5q92ABtrSCNYLcb_oRLp-10" target="DTDLvSKwGmbWVXUIPNlI-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5q92ABtrSCNYLcb_oRLp-10" value="RCIC Pump" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3840" y="230" width="120" height="130" as="geometry" />
@@ -1053,7 +1056,16 @@
           <mxGeometry x="4040" y="60" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="DTDLvSKwGmbWVXUIPNlI-1" value="RCIC system - the point of this system is during shutdown conditions, before RHR or residual heat can be removed. It is not normally classified as an emergencys ystem although it can be used as such. It uses steam from the decay heat to drive a pump. THe pump gains water from CST tanks or SUPPRESSION POOL in emergencies. This system does not have a LOCA or EMCS function as it is not normally calssified as an emergency system" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2860" y="1430" width="450" height="270" as="geometry" />
+          <mxGeometry x="2860" y="1430" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DTDLvSKwGmbWVXUIPNlI-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="DTDLvSKwGmbWVXUIPNlI-2" target="5q92ABtrSCNYLcb_oRLp-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DTDLvSKwGmbWVXUIPNlI-2" value="Water from CST or CSP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4010" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DTDLvSKwGmbWVXUIPNlI-4" value="Water to RCV" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3840" y="120" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
