@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15" version="26.2.1">
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="1426" dy="3026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="907" dy="2325" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -365,7 +365,7 @@
         <mxCell id="PJkJ077c91LMMJQf52MD-18" value="Suppression Spray Header" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
           <mxGeometry x="250" y="35" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PJkJ077c91LMMJQf52MD-20" value="Fuel Pool water from recirculation loop?&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
+        <mxCell id="PJkJ077c91LMMJQf52MD-20" value="Fuel Pool water from recirculation loop (before pumps)" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
           <mxGeometry x="390" y="95" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-38" value="" style="group;flipV=0;" parent="1" vertex="1" connectable="0">
