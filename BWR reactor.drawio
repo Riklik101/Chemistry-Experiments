@@ -855,6 +855,11 @@
         <mxCell id="lYiGoLRE0-96sHltOLpd-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="vucA-8wSvYLDTOJaeeL_-1" source="WJzQsB_H5gwof-JBOmg6-8" target="vucA-8wSvYLDTOJaeeL_-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="lYiGoLRE0-96sHltOLpd-11" value="One Way Valve" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="lYiGoLRE0-96sHltOLpd-9">
+          <mxGeometry x="0.0683" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WJzQsB_H5gwof-JBOmg6-8" value="RCIC Turbine - horizonatally mounted terry turbine, 150-1135 psig pressure range, built to rappidly accelerate from standby to full load within 30 seconds" style="rounded=0;whiteSpace=wrap;html=1;" parent="vucA-8wSvYLDTOJaeeL_-1" vertex="1">
           <mxGeometry x="640" y="365" width="225" height="145" as="geometry" />
         </mxCell>
@@ -1025,7 +1030,7 @@
         <mxCell id="5q92ABtrSCNYLcb_oRLp-23" value="Oil Supply" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3540" y="620" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5q92ABtrSCNYLcb_oRLp-31" value="RCIC Simplfiied System DIagram" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="5q92ABtrSCNYLcb_oRLp-31" value="RCIC Logical Overview" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3390" y="30" width="800" height="640" as="geometry" />
         </mxCell>
         <mxCell id="0Ml-Xhh6FxjBQ1p-4Oy4-5" value="Govenor Valve" style="rounded=0;whiteSpace=wrap;html=1;" parent="5q92ABtrSCNYLcb_oRLp-31" vertex="1">
