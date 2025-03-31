@@ -339,6 +339,9 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="PJkJ077c91LMMJQf52MD-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="KEScihgmW8gV4-IKPjgC-37" source="PJkJ077c91LMMJQf52MD-2" target="PJkJ077c91LMMJQf52MD-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PJkJ077c91LMMJQf52MD-2" value="RHR Heat Exchangers" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
           <mxGeometry x="60" y="165" width="120" height="60" as="geometry" />
         </mxCell>
@@ -351,13 +354,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PJkJ077c91LMMJQf52MD-9" value="Cooled Water" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
-          <mxGeometry x="60" y="265" width="120" height="60" as="geometry" />
+          <mxGeometry x="60" y="275" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PJkJ077c91LMMJQf52MD-11" value="Drywell Ring Spray" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
           <mxGeometry x="100" y="435" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PJkJ077c91LMMJQf52MD-12" value="Supression Pool Air Space Spray" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
           <mxGeometry x="200" y="355" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PJkJ077c91LMMJQf52MD-18" value="Suppression Spray Header" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
+          <mxGeometry x="250" y="35" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PJkJ077c91LMMJQf52MD-20" value="Fuel Pool water from recirculation loop?&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="KEScihgmW8gV4-IKPjgC-37">
+          <mxGeometry x="390" y="95" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-38" value="" style="group;flipV=0;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1880" y="800" width="70" height="240" as="geometry" />
@@ -1044,6 +1053,9 @@
         <mxCell id="PJkJ077c91LMMJQf52MD-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PJkJ077c91LMMJQf52MD-1" target="PJkJ077c91LMMJQf52MD-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="PJkJ077c91LMMJQf52MD-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PJkJ077c91LMMJQf52MD-1" target="PJkJ077c91LMMJQf52MD-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PJkJ077c91LMMJQf52MD-1" value="RHR Suction Pumps from CSP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2090" y="1440" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1055,6 +1067,13 @@
         </mxCell>
         <mxCell id="PJkJ077c91LMMJQf52MD-14" value="The purpose of this is to aid in the condensing of steam in these spaces." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2130" y="1990" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PJkJ077c91LMMJQf52MD-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PJkJ077c91LMMJQf52MD-20" target="PJkJ077c91LMMJQf52MD-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2300" y="1510" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
