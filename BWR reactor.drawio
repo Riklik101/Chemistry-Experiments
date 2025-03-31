@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15" version="26.2.1">
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="624" dy="1943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="832" dy="2223" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1081,11 +1081,48 @@
         <mxCell id="PJkJ077c91LMMJQf52MD-25" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PJkJ077c91LMMJQf52MD-22" target="PJkJ077c91LMMJQf52MD-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="PJkJ077c91LMMJQf52MD-27" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PJkJ077c91LMMJQf52MD-22" target="PJkJ077c91LMMJQf52MD-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PJkJ077c91LMMJQf52MD-22" value="Bypass from HE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2240" y="1640" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="PJkJ077c91LMMJQf52MD-29" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PJkJ077c91LMMJQf52MD-26" target="tKUN6F0h3y-6Nvg6FrFS-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1720" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2690" y="1420" />
+              <mxPoint x="1990" y="1290" />
+              <mxPoint x="2010" y="860" />
+              <mxPoint x="1990" y="400" />
+              <mxPoint x="1780" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PJkJ077c91LMMJQf52MD-26" value="Head Spray Header (SYSTEM 2 ONLY)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2390" y="1750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PJkJ077c91LMMJQf52MD-28" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="PJkJ077c91LMMJQf52MD-9" target="PJkJ077c91LMMJQf52MD-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PJkJ077c91LMMJQf52MD-30" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KEScihgmW8gV4-IKPjgC-28" target="PJkJ077c91LMMJQf52MD-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2030" y="1350" />
+              <mxPoint x="2360" y="1370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJkJ077c91LMMJQf52MD-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KEScihgmW8gV4-IKPjgC-1" target="PJkJ077c91LMMJQf52MD-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2020" y="1339.9999999999995" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1480" y="1350" />
+              <mxPoint x="1690" y="1390" />
+              <mxPoint x="1960" y="1360" />
+              <mxPoint x="2490" y="1320" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
