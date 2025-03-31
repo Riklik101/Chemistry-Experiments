@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15" version="26.2.2">
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="949" dy="1713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="1849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1146,11 +1146,34 @@
             <mxPoint x="1760" y="1079.9999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="lYiGoLRE0-96sHltOLpd-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="KFO9y1ErrZHWaWCIGTO8-2" target="lYiGoLRE0-96sHltOLpd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KFO9y1ErrZHWaWCIGTO8-2" value="There are 137 Control Rod Drive penetrations, 31 LPR monitors, 8 IPR monitors, 4 SRM monitors. There is also an pipe-within-a-pipe monitor for pressure measurement &amp;amp; emergency SLC poison injection" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1560" y="1275" width="280" height="130" as="geometry" />
         </mxCell>
         <mxCell id="KFO9y1ErrZHWaWCIGTO8-4" value="&lt;div&gt;The steam dryer assembly dries the wet steam leaving the steam separators to greater than&amp;nbsp;&lt;/div&gt;&lt;div&gt;99.9% quality. The dryer assembly also provides a seal between the wet steam area and the&amp;nbsp;&lt;/div&gt;&lt;div&gt;dry steam flowing to the steam lines. The seal is formed by the steam dryer assembly seal skirt&amp;nbsp;&lt;/div&gt;&lt;div&gt;extending below the normal water level.&amp;nbsp;&lt;/div&gt;&lt;div&gt;The individual dryer sections force the steam to be directed horizontally through the dryer&amp;nbsp;&lt;/div&gt;&lt;div&gt;panels. The steam is forced to make a series of rapid changes in direction while traversing the&amp;nbsp;&lt;/div&gt;&lt;div&gt;panels. During these direction changes, the heavier drops of entrained moisture are forced to&amp;nbsp;&lt;/div&gt;&lt;div&gt;the outer walls where moisture collection hooks catch and drain the liquid to collection troughs.&amp;nbsp;&lt;/div&gt;&lt;div&gt;From the collection troughs the liquid is directed to the annulus area via drain tubes.&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2090" y="500" width="290" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="lYiGoLRE0-96sHltOLpd-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="lYiGoLRE0-96sHltOLpd-3" target="lYiGoLRE0-96sHltOLpd-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1860" y="1040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1860" y="1470" />
+              <mxPoint x="1910" y="1170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lYiGoLRE0-96sHltOLpd-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="lYiGoLRE0-96sHltOLpd-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1580" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1460" y="1520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lYiGoLRE0-96sHltOLpd-3" value="Pressure measurement controls recirc and jet pumps" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1638.75" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
