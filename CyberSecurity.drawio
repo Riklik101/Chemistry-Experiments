@@ -1,14 +1,95 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15" version="26.2.4">
-  <diagram name="Page-1" id="cgNLpoCMRLJCODOj_hEC">
-    <mxGraphModel dx="1546" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="Computer" id="cgNLpoCMRLJCODOj_hEC">
+    <mxGraphModel dx="1567" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="pWg3rEq_nWjjUZhZII7G-1" target="pWg3rEq_nWjjUZhZII7G-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-7" value="If GPU OOS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="pWg3rEq_nWjjUZhZII7G-6">
+          <mxGeometry x="-0.2689" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="pWg3rEq_nWjjUZhZII7G-1" value="CPU - processing of tasks" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-520" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="-490" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="pWg3rEq_nWjjUZhZII7G-3" target="pWg3rEq_nWjjUZhZII7G-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pWg3rEq_nWjjUZhZII7G-3" value="GPU - Graphical Processing Unit -&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-330" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="-290" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-4" value="Monitor - Graphical Display" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-8" value="OOS - Out of service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-80" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="pWg3rEq_nWjjUZhZII7G-9" target="pWg3rEq_nWjjUZhZII7G-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-31" value="Power, Info" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="pWg3rEq_nWjjUZhZII7G-10">
+          <mxGeometry x="0.0387" y="-8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="pWg3rEq_nWjjUZhZII7G-9" target="pWg3rEq_nWjjUZhZII7G-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-32" value="Power" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="pWg3rEq_nWjjUZhZII7G-11">
+          <mxGeometry x="0.2385" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-21" value="Battery Information" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="pWg3rEq_nWjjUZhZII7G-9" target="pWg3rEq_nWjjUZhZII7G-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-9" value="Battery - Power to main systems" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="-50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="pWg3rEq_nWjjUZhZII7G-12" target="pWg3rEq_nWjjUZhZII7G-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-12" value="Main Power Supply - direct from source" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="pWg3rEq_nWjjUZhZII7G-14" target="pWg3rEq_nWjjUZhZII7G-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-14" value="Voltage Regulator" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="-160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-20" value="Power" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="pWg3rEq_nWjjUZhZII7G-15" target="pWg3rEq_nWjjUZhZII7G-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-15" value="UPS - set as switch battery setup, with power flowing through switch battery, for instantaneous switch to main.&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-50" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="pWg3rEq_nWjjUZhZII7G-16" target="pWg3rEq_nWjjUZhZII7G-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-16" value="Manual UPS Control - On/Off, modes" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-30" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="pWg3rEq_nWjjUZhZII7G-23" target="pWg3rEq_nWjjUZhZII7G-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-23" value="Remote UPS control" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-25" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="pWg3rEq_nWjjUZhZII7G-24" target="pWg3rEq_nWjjUZhZII7G-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-24" value="Encryption CHIP - One way access to CPU, powered by Aux Battery" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-28" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="pWg3rEq_nWjjUZhZII7G-26" target="pWg3rEq_nWjjUZhZII7G-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pWg3rEq_nWjjUZhZII7G-26" value="Auxillary Battery" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="50" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
