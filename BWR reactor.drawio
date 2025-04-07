@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15" version="26.2.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15" version="26.2.9">
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="665" dy="1999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="587" dy="1893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="i5RjJMvVHdRaS2lZSzat-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="i5RjJMvVHdRaS2lZSzat-1" target="6rTAJGrIADEqD6MdZbD7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i5RjJMvVHdRaS2lZSzat-1" value="There are two main types of CRD - hydralic and motor driven, an overview of mainly turbine driven will be given due to the RCIC already being turbined. Hydralic will be in another section" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="1240" width="170" height="130" as="geometry" />
+        </mxCell>
         <mxCell id="KEScihgmW8gV4-IKPjgC-131" value="CSP wtr" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;textDirection=vertical-lr;strokeColor=#001DBC;fillColor=#0050ef;" parent="1" source="KEScihgmW8gV4-IKPjgC-120" target="KEScihgmW8gV4-IKPjgC-59" edge="1">
           <mxGeometry x="0.7916" y="2" relative="1" as="geometry">
             <mxPoint x="1490" y="640" as="targetPoint" />
