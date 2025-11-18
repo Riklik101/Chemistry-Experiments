@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.0.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Safari/605.1.15" version="29.0.3">
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="1501" dy="1962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="971" dy="1879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -676,7 +676,7 @@
         <mxCell id="dGc705qvc9fmwsX8Qmvt-1" value="Firefighter/Watertruck CSP refill port for Emergencies" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1330" y="-120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2MGQYD76VvEUWAMjLEsQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dGc705qvc9fmwsX8Qmvt-2" target="dGc705qvc9fmwsX8Qmvt-1">
+        <mxCell id="2MGQYD76VvEUWAMjLEsQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dGc705qvc9fmwsX8Qmvt-2" target="dGc705qvc9fmwsX8Qmvt-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1385" y="-60" />
@@ -763,7 +763,7 @@
         <mxCell id="k97ljpKsMprcKII0X-Vi-1" value="Vents to supression pool" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="eMSMq50HMb5_UuFWrkmo-44" target="KEScihgmW8gV4-IKPjgC-120" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2MGQYD76VvEUWAMjLEsQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k97ljpKsMprcKII0X-Vi-2" target="2MGQYD76VvEUWAMjLEsQ-1">
+        <mxCell id="2MGQYD76VvEUWAMjLEsQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="k97ljpKsMprcKII0X-Vi-2" target="2MGQYD76VvEUWAMjLEsQ-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k97ljpKsMprcKII0X-Vi-2" value="Steam Containment Vessel - idea wherence there is a Vessel with the sole purpose of containing steam in the eevent the SRVs open. However, this has the downside of not going back to reactor hotwell, running the risk of reducing reactor water level, in that case hotwell needs to have more water added.&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
@@ -1402,16 +1402,16 @@
         <mxCell id="dTbuzQRH1kL5RaGSrg2_-3" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3040" y="2200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2MGQYD76VvEUWAMjLEsQ-1" value="1 year later me here: This idea was built upon a misunderstanding of reactor necessities. The SRV already goes over to the CSP, which is literally already the containment vessel. When MSRVs activate, they direct into suppression OR HPCI systems - other ECCS systems. The venting of radioactive gas is only really possible in the worst case scenario as there are many pressure supression techniques - even the off-gas system has radiation treatment undergone" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2MGQYD76VvEUWAMjLEsQ-1" value="1 year later me here: This idea was built upon a misunderstanding of reactor necessities. The SRV already goes over to the CSP, which is literally already the containment vessel. When MSRVs activate, they direct into suppression OR HPCI systems - other ECCS systems. The venting of radioactive gas is only really possible in the worst case scenario as there are many pressure supression techniques - even the off-gas system has radiation treatment undergone" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="-300" width="330" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="2MGQYD76VvEUWAMjLEsQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2MGQYD76VvEUWAMjLEsQ-3" target="dGc705qvc9fmwsX8Qmvt-1">
+        <mxCell id="2MGQYD76VvEUWAMjLEsQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2MGQYD76VvEUWAMjLEsQ-3" target="dGc705qvc9fmwsX8Qmvt-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2MGQYD76VvEUWAMjLEsQ-3" value="This is NOT a good idea. CSP might have steam and oh crap you have a scram so MSRV might mean that CSP gets irradiated....but wait a second isn&#39;t the CSP linked to the RPV DRAIN PORT?!?!?!?!?!?! The only safe way to have this would to be instead having CST refill ports because csts can make up CSPs or suching" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2MGQYD76VvEUWAMjLEsQ-3" value="This is NOT a good idea. CSP might have steam and oh crap you have a scram so MSRV might mean that CSP gets irradiated....but wait a second isn&#39;t the CSP linked to the RPV DRAIN PORT?!?!?!?!?!?! The only safe way to have this would to be instead having CST refill ports because csts can make up CSPs or suching" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1260" y="-340" width="220" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="2MGQYD76VvEUWAMjLEsQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.953;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vucA-8wSvYLDTOJaeeL_-1" target="w922FdSEvfM4Me6jcnoZ-1">
+        <mxCell id="2MGQYD76VvEUWAMjLEsQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.953;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vucA-8wSvYLDTOJaeeL_-1" target="w922FdSEvfM4Me6jcnoZ-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="3348" y="590" />
@@ -1419,8 +1419,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2MGQYD76VvEUWAMjLEsQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.535;entryY=0.051;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vucA-8wSvYLDTOJaeeL_-6" target="vucA-8wSvYLDTOJaeeL_-7">
+        <mxCell id="2MGQYD76VvEUWAMjLEsQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.535;entryY=0.051;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="vucA-8wSvYLDTOJaeeL_-6" target="vucA-8wSvYLDTOJaeeL_-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pfTENUsEbC1V4nxVkVul-3" value="" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="4690" y="740" width="340" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="pfTENUsEbC1V4nxVkVul-4" value="RPS A" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};snapToPoint=0;" vertex="1" parent="pfTENUsEbC1V4nxVkVul-3">
+          <mxGeometry width="340" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="pfTENUsEbC1V4nxVkVul-14" value="" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="5100" y="740" width="340" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="pfTENUsEbC1V4nxVkVul-15" value="RPS B" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};snapToPoint=0;" vertex="1" parent="pfTENUsEbC1V4nxVkVul-14">
+          <mxGeometry width="340" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="pfTENUsEbC1V4nxVkVul-16" value="RPS Channels for a BWR 4 reactor are contained within TWO separate systems: A &amp; B, which are independent and contain two channels each: A1, A2, B1, B2. &#xa;&#xa;RPS actuation &amp; scram occurs if 1 of each channel is actuated: a system being tripped alone is a “half scram”.&#xa;&#xa;RPS channels are held in an energized state, and de-energization triggers a trip. If both trip, then RPS actuates the release of control rod scram valves. " style="whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="4920" y="545" width="420" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
