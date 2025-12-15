@@ -1837,10 +1837,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="I9bJu8dHWrm3_mt8i9x2-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Loss Of Electrical Power" vertex="1">
-          <mxGeometry height="570" width="580" x="150" y="70" as="geometry" />
-        </mxCell>
-        <mxCell id="wD0sfvD53yvROi9WOM2R-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
-          <mxGeometry height="30" width="60" x="30" y="180" as="geometry" />
+          <mxGeometry height="570" width="580" x="460" y="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
