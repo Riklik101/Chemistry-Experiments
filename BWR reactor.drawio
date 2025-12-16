@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7" pages="3">
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="979" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="993" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1886,6 +1886,24 @@
         <mxCell id="CvrSXrLbduoQX5FGvZtV-20" parent="CvrSXrLbduoQX5FGvZtV-11" style="whiteSpace=wrap;fontStyle=2;fillColor=#fff2cc;strokeColor=#d6b656;" value="The ARI Subsystem is independent of the RPS system, and has 6 valves divided into A and B, with high pressure or low RPV lvl causing automatic scram" vertex="1">
           <mxGeometry height="110" width="190" x="40" y="15" as="geometry" />
         </mxCell>
+        <mxCell id="CvrSXrLbduoQX5FGvZtV-28" edge="1" parent="CvrSXrLbduoQX5FGvZtV-11" source="CvrSXrLbduoQX5FGvZtV-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" target="CvrSXrLbduoQX5FGvZtV-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CvrSXrLbduoQX5FGvZtV-21" parent="CvrSXrLbduoQX5FGvZtV-11" style="whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="ARI Valve A x3" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="CvrSXrLbduoQX5FGvZtV-22" parent="CvrSXrLbduoQX5FGvZtV-11" style="whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="ARI Valve B x3" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="CvrSXrLbduoQX5FGvZtV-26" parent="CvrSXrLbduoQX5FGvZtV-11" style="whiteSpace=wrap;" value="1120 PSIG High Reactor Pressure" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="CvrSXrLbduoQX5FGvZtV-24" parent="CvrSXrLbduoQX5FGvZtV-11" style="whiteSpace=wrap;" value="Level 2 (-38in) low RPV level" vertex="1">
+          <mxGeometry height="60" width="120" x="300" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="CvrSXrLbduoQX5FGvZtV-23" parent="CvrSXrLbduoQX5FGvZtV-11" style="whiteSpace=wrap;" value="Manual Pushbutton (P603 Panel)" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="230" as="geometry" />
+        </mxCell>
         <mxCell id="CvrSXrLbduoQX5FGvZtV-16" edge="1" parent="1" source="pfTENUsEbC1V4nxVkVul-4" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="CvrSXrLbduoQX5FGvZtV-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1912,6 +1930,24 @@
         </mxCell>
         <mxCell id="ymKc9v2VaKFzGMy61L-f-21" parent="ymKc9v2VaKFzGMy61L-f-12" style="whiteSpace=wrap;" value="Upon both being de-energized, the control rod is entered into the core" vertex="1">
           <mxGeometry height="100" width="130" x="370" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CvrSXrLbduoQX5FGvZtV-34" edge="1" parent="1" source="CvrSXrLbduoQX5FGvZtV-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CvrSXrLbduoQX5FGvZtV-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CvrSXrLbduoQX5FGvZtV-35" edge="1" parent="1" source="CvrSXrLbduoQX5FGvZtV-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CvrSXrLbduoQX5FGvZtV-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CvrSXrLbduoQX5FGvZtV-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ARI Trip" vertex="1">
+          <mxGeometry height="60" width="120" x="5010" y="1750" as="geometry" />
+        </mxCell>
+        <mxCell id="CvrSXrLbduoQX5FGvZtV-31" edge="1" parent="1" source="CvrSXrLbduoQX5FGvZtV-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CvrSXrLbduoQX5FGvZtV-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CvrSXrLbduoQX5FGvZtV-32" edge="1" parent="1" source="CvrSXrLbduoQX5FGvZtV-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CvrSXrLbduoQX5FGvZtV-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CvrSXrLbduoQX5FGvZtV-33" edge="1" parent="1" source="CvrSXrLbduoQX5FGvZtV-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="CvrSXrLbduoQX5FGvZtV-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
