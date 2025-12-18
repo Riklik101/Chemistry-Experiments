@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="Main Reactor Diagram" id="zCzkAe-QQenKXRkLdghB">
-    <mxGraphModel dx="892" dy="1842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="653" dy="1842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2077,13 +2077,112 @@
           <mxGeometry height="170" width="170" x="750" y="290" as="geometry" />
         </mxCell>
         <mxCell id="H4ZPijJ3TO79GLOVXpLL-1" parent="3o6sqsElBu2xueAuoMbf-11" style="swimlane;whiteSpace=wrap;html=1;" value="Neutron Monitoring System Scrams" vertex="1">
-          <mxGeometry height="520" width="838.26" x="301.74" y="530" as="geometry" />
+          <mxGeometry height="520" width="838.26" x="301.74" y="540" as="geometry" />
         </mxCell>
         <mxCell id="3o6sqsElBu2xueAuoMbf-14" parent="H4ZPijJ3TO79GLOVXpLL-1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="IRM Scram - if power exceeds setpoint or IRM is inoperable. IRM hi hi signal setn to rps logic when one is higher than 120/125. All are disabled except for HI HI in RUN mode. 4 IRMs per trip system, and manual bypasses for all of them" vertex="1">
           <mxGeometry height="170" width="170" x="53.26000000000022" y="30" as="geometry" />
         </mxCell>
         <mxCell id="3o6sqsElBu2xueAuoMbf-16" parent="H4ZPijJ3TO79GLOVXpLL-1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Special Neutron Monitoring Scrams - NMS high power level, inop systems, SRM signals, and others will result in system scrams to maintain safety conditions" vertex="1">
           <mxGeometry height="170" width="170" x="53.26000000000022" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-11" connectable="0" parent="H4ZPijJ3TO79GLOVXpLL-1" style="group" value="" vertex="1">
+          <mxGeometry height="140" width="270" x="293.2600000000002" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-7" edge="1" parent="H4ZPijJ3TO79GLOVXpLL-11" source="H4ZPijJ3TO79GLOVXpLL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="H4ZPijJ3TO79GLOVXpLL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-8" edge="1" parent="H4ZPijJ3TO79GLOVXpLL-11" source="H4ZPijJ3TO79GLOVXpLL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="H4ZPijJ3TO79GLOVXpLL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-10" edge="1" parent="H4ZPijJ3TO79GLOVXpLL-11" source="H4ZPijJ3TO79GLOVXpLL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" target="H4ZPijJ3TO79GLOVXpLL-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="129.73999999999978" y="30" />
+              <mxPoint x="129.73999999999978" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-2" parent="H4ZPijJ3TO79GLOVXpLL-11" style="rounded=0;whiteSpace=wrap;html=1;" value="IRM inoperable conditions" vertex="1">
+          <mxGeometry height="60" width="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-6" parent="H4ZPijJ3TO79GLOVXpLL-11" style="rounded=0;whiteSpace=wrap;html=1;" value="Drawer Module unplugged" vertex="1">
+          <mxGeometry height="60" width="120" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-4" parent="H4ZPijJ3TO79GLOVXpLL-11" style="rounded=0;whiteSpace=wrap;html=1;" value="Detector Power Low Voltage" vertex="1">
+          <mxGeometry height="60" width="120" x="150" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-3" parent="H4ZPijJ3TO79GLOVXpLL-11" style="rounded=0;whiteSpace=wrap;html=1;" value="Switch not in Operate POS" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-22" connectable="0" parent="H4ZPijJ3TO79GLOVXpLL-1" style="group" value="" vertex="1">
+          <mxGeometry height="210" width="270.0000000000001" x="293.2600000000001" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-12" connectable="0" parent="H4ZPijJ3TO79GLOVXpLL-22" style="group" value="" vertex="1">
+          <mxGeometry height="140" width="270" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-13" edge="1" parent="H4ZPijJ3TO79GLOVXpLL-12" source="H4ZPijJ3TO79GLOVXpLL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="H4ZPijJ3TO79GLOVXpLL-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-14" edge="1" parent="H4ZPijJ3TO79GLOVXpLL-12" source="H4ZPijJ3TO79GLOVXpLL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="H4ZPijJ3TO79GLOVXpLL-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-15" edge="1" parent="H4ZPijJ3TO79GLOVXpLL-12" source="H4ZPijJ3TO79GLOVXpLL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" target="H4ZPijJ3TO79GLOVXpLL-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="129.73999999999978" y="30" />
+              <mxPoint x="129.73999999999978" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-16" parent="H4ZPijJ3TO79GLOVXpLL-12" style="rounded=0;whiteSpace=wrap;html=1;" value="APRM Inoperable Conditions" vertex="1">
+          <mxGeometry height="60" width="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-17" parent="H4ZPijJ3TO79GLOVXpLL-12" style="rounded=0;whiteSpace=wrap;html=1;" value="Inoperable APRM CIrcuit" vertex="1">
+          <mxGeometry height="60" width="120" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-18" parent="H4ZPijJ3TO79GLOVXpLL-12" style="rounded=0;whiteSpace=wrap;html=1;" value="High Neutron Flux without RUN" vertex="1">
+          <mxGeometry height="60" width="120" x="150" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-19" parent="H4ZPijJ3TO79GLOVXpLL-12" style="rounded=0;whiteSpace=wrap;html=1;" value="High Neutron Flux with RUN&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-20" parent="H4ZPijJ3TO79GLOVXpLL-22" style="rounded=0;whiteSpace=wrap;html=1;" value="High thermal power for recirculation loop" vertex="1">
+          <mxGeometry height="60" width="120" x="150.0000000000001" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-21" edge="1" parent="H4ZPijJ3TO79GLOVXpLL-22" source="H4ZPijJ3TO79GLOVXpLL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" target="H4ZPijJ3TO79GLOVXpLL-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="129.7399999999999" y="30" />
+              <mxPoint x="129.7399999999999" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-23" parent="H4ZPijJ3TO79GLOVXpLL-1" style="whiteSpace=wrap;html=1;rounded=0;" value="Insufficient LPRM Inputs, low voltage, card unplugged" vertex="1">
+          <mxGeometry height="60" width="120" x="293.2600000000002" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-24" edge="1" parent="H4ZPijJ3TO79GLOVXpLL-1" source="H4ZPijJ3TO79GLOVXpLL-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="H4ZPijJ3TO79GLOVXpLL-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-25" parent="H4ZPijJ3TO79GLOVXpLL-1" style="whiteSpace=wrap;html=1;rounded=0;" value="Neutron flux scram setpoint set to 15%" vertex="1">
+          <mxGeometry height="60" width="120" x="643.2600000000002" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-26" edge="1" parent="H4ZPijJ3TO79GLOVXpLL-1" source="H4ZPijJ3TO79GLOVXpLL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="H4ZPijJ3TO79GLOVXpLL-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-27" parent="H4ZPijJ3TO79GLOVXpLL-1" style="whiteSpace=wrap;html=1;rounded=0;" value="Neutron flux scram setpoint set to 118%" vertex="1">
+          <mxGeometry height="60" width="120" x="643.2600000000002" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-28" edge="1" parent="H4ZPijJ3TO79GLOVXpLL-1" source="H4ZPijJ3TO79GLOVXpLL-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="H4ZPijJ3TO79GLOVXpLL-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-29" parent="H4ZPijJ3TO79GLOVXpLL-1" style="whiteSpace=wrap;html=1;rounded=0;" value="based on rated loop flow, using a bias of .66W + 51 or 66% of summed value of flow added to 51, and the setpoint is compared to aprm average. if this average exceeds APRM setpoint for 6+ seconds, a scram signal is generated, and the setpoint is set to 113.5%" vertex="1">
+          <mxGeometry height="160" width="166.74" x="643.26" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-30" edge="1" parent="H4ZPijJ3TO79GLOVXpLL-1" source="H4ZPijJ3TO79GLOVXpLL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="H4ZPijJ3TO79GLOVXpLL-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-31" parent="H4ZPijJ3TO79GLOVXpLL-1" style="whiteSpace=wrap;html=1;" value="3 APRMs per trip system, 6 total" vertex="1">
+          <mxGeometry height="60" width="120" x="73.26000000000022" y="410" as="geometry" />
         </mxCell>
         <mxCell id="3o6sqsElBu2xueAuoMbf-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Both are disabled when turbine first stage pressure is &amp;lt;30% of rated" vertex="1">
           <mxGeometry height="60" width="120" x="6500" y="1957.5" as="geometry" />
