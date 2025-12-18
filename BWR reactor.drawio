@@ -2050,7 +2050,7 @@
           <mxGeometry height="660" width="621.74" x="5250" y="2800" as="geometry" />
         </mxCell>
         <mxCell id="3o6sqsElBu2xueAuoMbf-11" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="SCRAM Types" vertex="1">
-          <mxGeometry height="750" width="960" x="5490" y="1700" as="geometry" />
+          <mxGeometry height="1070" width="1165" x="5415" y="1680" as="geometry" />
         </mxCell>
         <mxCell id="3o6sqsElBu2xueAuoMbf-12" parent="3o6sqsElBu2xueAuoMbf-11" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Scram Discharge Volume High Level - this volume contains water from SCRAM. if this fills up, it could lead to loss of SCRAM operability. Therefore, it results in a scram if it reaches the point where it is before filling up completely, but after a point where It can verify it is filling up" vertex="1">
           <mxGeometry height="170" width="170" x="50" y="80" as="geometry" />
@@ -2064,26 +2064,26 @@
         <mxCell id="3o6sqsElBu2xueAuoMbf-21" parent="3o6sqsElBu2xueAuoMbf-11" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Turbine Stop Valve - TSVs control turbine pressure inlets, and if closed, they can result in the same type of increase of pressure described in an MSIV closure, and therefore the SCRAM is initiated to maintain safe operating margins" vertex="1">
           <mxGeometry height="170" width="170" x="750" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="3o6sqsElBu2xueAuoMbf-20" parent="3o6sqsElBu2xueAuoMbf-11" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+        <mxCell id="3o6sqsElBu2xueAuoMbf-20" parent="3o6sqsElBu2xueAuoMbf-11" style="whiteSpace=wrap;html=1;aspect=fixed;" value="High Drywell Pressure Scram - the primary containment should be able to contain a breach of the reactor coolant system pressure boundary; if this pressure is too high, it may not be able to complete its safety objective, and therefore this scram is automatically initiated" vertex="1">
           <mxGeometry height="170" width="170" x="50" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="3o6sqsElBu2xueAuoMbf-19" parent="3o6sqsElBu2xueAuoMbf-11" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+        <mxCell id="3o6sqsElBu2xueAuoMbf-19" parent="3o6sqsElBu2xueAuoMbf-11" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Reactor Vessel Water Level Low - low water level indicates that the water may not be enough to cover fuel and fuel damage could result, so this scram prevents it by reducing the reactor heat" vertex="1">
           <mxGeometry height="170" width="170" x="301.7399999999998" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="3o6sqsElBu2xueAuoMbf-18" parent="3o6sqsElBu2xueAuoMbf-11" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+        <mxCell id="3o6sqsElBu2xueAuoMbf-18" parent="3o6sqsElBu2xueAuoMbf-11" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Main Steam Line High Radiation - release of high radiation from the steam lines could indicate a leak or release of fission products from the core, and this automatically initiates a scram" vertex="1">
           <mxGeometry height="170" width="170" x="550" y="290" as="geometry" />
         </mxCell>
         <mxCell id="3o6sqsElBu2xueAuoMbf-17" parent="3o6sqsElBu2xueAuoMbf-11" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Turbine Control Valve Fast Closure - like the TSV, the closure of these control valves could result in large pressure increases, because the TCV is fast closed in case of load rejection, resulting in hydraulic oil supply depressurization - this is intitated when oil pressure drops below 500psig" vertex="1">
           <mxGeometry height="170" width="170" x="750" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="3o6sqsElBu2xueAuoMbf-16" parent="3o6sqsElBu2xueAuoMbf-11" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="170" width="170" x="550" y="540" as="geometry" />
+        <mxCell id="H4ZPijJ3TO79GLOVXpLL-1" parent="3o6sqsElBu2xueAuoMbf-11" style="swimlane;whiteSpace=wrap;html=1;" value="Neutron Monitoring System Scrams" vertex="1">
+          <mxGeometry height="520" width="838.26" x="301.74" y="530" as="geometry" />
         </mxCell>
-        <mxCell id="3o6sqsElBu2xueAuoMbf-15" parent="3o6sqsElBu2xueAuoMbf-11" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="170" width="170" x="310" y="540" as="geometry" />
+        <mxCell id="3o6sqsElBu2xueAuoMbf-14" parent="H4ZPijJ3TO79GLOVXpLL-1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="IRM Scram - if power exceeds setpoint or IRM is inoperable. IRM hi hi signal setn to rps logic when one is higher than 120/125. All are disabled except for HI HI in RUN mode. 4 IRMs per trip system, and manual bypasses for all of them" vertex="1">
+          <mxGeometry height="170" width="170" x="53.26000000000022" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="3o6sqsElBu2xueAuoMbf-14" parent="3o6sqsElBu2xueAuoMbf-11" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="170" width="170" x="50" y="540" as="geometry" />
+        <mxCell id="3o6sqsElBu2xueAuoMbf-16" parent="H4ZPijJ3TO79GLOVXpLL-1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Special Neutron Monitoring Scrams - NMS high power level, inop systems, SRM signals, and others will result in system scrams to maintain safety conditions" vertex="1">
+          <mxGeometry height="170" width="170" x="53.26000000000022" y="220" as="geometry" />
         </mxCell>
         <mxCell id="3o6sqsElBu2xueAuoMbf-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Both are disabled when turbine first stage pressure is &amp;lt;30% of rated" vertex="1">
           <mxGeometry height="60" width="120" x="6500" y="1957.5" as="geometry" />
