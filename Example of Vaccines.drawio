@@ -1,9 +1,15 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15" version="29.2.7">
   <diagram name="Page-1" id="D291IFQBDR6CxpTV1keT">
-    <mxGraphModel>
+    <mxGraphModel dx="386" dy="630" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pc6x-n6935Fnb8VLmktt-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; font-size: 14.7px; line-height: normal; font-family: Arial; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; -webkit-text-stroke-width: 0px; -webkit-text-stroke-color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;font-size: 14.67px; font-kerning: none;&quot;&gt;I believe that vaccines are harmful and cause secret harm to our bodies, reducing our life expectancy.&lt;/span&gt;&lt;span style=&quot;font-size: 14.67px;&quot;&gt;&amp;nbsp;I believe that vaccines are harmful and cause secret harm to our bodies, reducing our life expectancy.&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="118" width="285" x="418" y="87" as="geometry" />
+        </mxCell>
+        <mxCell id="pc6x-n6935Fnb8VLmktt-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-width: normal; font-size: 14.7px; line-height: normal; font-family: Arial; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; -webkit-text-stroke-width: 0px; -webkit-text-stroke-color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;font-size: 14.67px; font-kerning: none;&quot;&gt;I know that research shows that vaccines are safe, and that all regulatory agencies describe them as safe.&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="105" width="202" x="962" y="79" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
